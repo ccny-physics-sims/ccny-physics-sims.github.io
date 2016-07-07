@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+
+<article class="sim">
+<h2>{{page.title}}</h2>
+<iframe src="{{ page.location }}" width =" {{ page.width }}"; height=" {{ page.height }}" ></iframe>
+</article>
+
+<section class="sim-instructions">
+Instructions:
+{{page.instructions}}
+</section>
+
+<section class="sim-explanation">
+<b>Explanation: </b>
+{{page.explanation}}
+</section>
+
+
+<section class="sim-embedcode-area">
+<p>
+  <b>Embed code: </b>Use this sim on a webpage. Copy the code block below, and include it anywhere on a webpage to show the sim.
+</p>
+
+<textarea class="iframe-link">
+&lt;iframe src="{{ page.location }}" width ="{{ page.width }}"; height="{{ page.height }}" ></iframe &gt;</textarea>
+</section>

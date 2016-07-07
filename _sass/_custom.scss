@@ -1,0 +1,67 @@
+iframe {
+  border:0 none;
+}
+
+.iframe-link {
+  width: 100%;
+  font-size:90%;
+  border: thin solid $grey-color;
+  background: $grey-color-light;
+}
+
+.subject {
+  clear: both;
+}
+.subject:first-letter {
+    text-transform: uppercase;
+}
+.topic {
+  clear: both;
+}
+.topic:first-letter {
+    text-transform: uppercase;
+}
+
+#intro-image {
+  margin-bottom: $spacing-unit / 2;
+  border-radius: $spacing-unit / 2;
+}
+
+section {
+  margin: 2%;
+}
+
+.a-sim {
+
+  float: left;
+  width: 50%;
+  margin: 0 0 2% 0;
+  overflow:hidden
+}
+
+.sim-thumb {
+  width: 20%;
+  float: left;
+  margin: 0 2% 0 0;
+}
+
+.vignette {
+	-webkit-box-shadow: inset 0px 0px 25px rgba(0,0,0,0.3);
+	-moz-box-shadow:    inset 0px 0px 25px rgba(0,0,0,0.3);
+	box-shadow:         inset 0px 0px 25px rgba(0,0,0,0.3);
+	line-height: 0;         /* ensure no space between bottom */
+	display: inline-block;  /* don't go wider than image */
+  border-radius: 10%;
+
+}
+.vignette img {
+	position: relative;
+	z-index: -1;
+  border-radius: 10%;     /* position beneath */
+}
+
+
+.img-circle {
+  border-radius: 50%;
+  border: thin solid black;
+}
