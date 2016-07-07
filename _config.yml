@@ -11,7 +11,7 @@ email: jhedberg@ccny.cuny.edu
 description: > # this means to ignore newlines until "baseurl:"
   Science sims built for learners
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "https://ccny-physics-sims.github.io/sims-site/" # the base hostname & protocol for your site
 twitter_username:
 github_username:  ccny-physics-sims
 
