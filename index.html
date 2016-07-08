@@ -25,26 +25,34 @@ Your browser does not support the video tag.
 Books are great. There's no denying that. However, so are motion graphics! We can make abstract science concepts visual by coding up simple simulations. Our forthcoming <code>science.js</code> library will make it easy for students and coders everywhere to build their own sims. </p>
 </div>
 
-<div class="example">
-  <iframe src="https://ccny-physics-sims.github.io/sims/sum-two-waves" width=710px height=400px frameborder="0"></iframe>
-</div>
+<!-- <div class="example">
+  <iframe src="https://ccny-physics-sims.github.io/sims/sum-two-waves/" width=710px height=400px frameborder="0"></iframe>
+</div> -->
 
-<div class="home">
+<div class="row">
 
-  <h1 class="page-heading">Posts</h1>
+
+<div class="col-6 recent-posts">
+
+  <h1>Recent Posts</h2>
 
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in site.posts limit:2 %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+        <p>
+          {{ post.excerpt }}
+        </p>
+        <a class="read-more" href="{{ post.url | prepend: site.baseurl }}">Read more</a>
       </li>
     {% endfor %}
   </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
+</div>
 </div>

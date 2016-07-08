@@ -1,7 +1,9 @@
 iframe {
-  border:0 none;
+   border: 0 none;
 }
-
+iframe.tut-canvas {
+   border: thin solid gray;
+}
 .iframe-link {
   width: 100%;
   font-size:90%;

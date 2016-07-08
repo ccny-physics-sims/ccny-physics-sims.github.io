@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-    
+
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
@@ -195,6 +195,12 @@
 }
 
 
+.recent-posts {
+
+  background: $grey-color-light;
+  padding: 2%;
+  border-radius: 10px;
+}
 
 /**
  * Posts

@@ -20,6 +20,11 @@ collections:
     output: true
     permalink: sims/:title
     layout: sim
+  tutorials:
+    output: true
+    permalink: tutorials/:title
+    layout: sketch
+
 
 defaults:
   - scope:
@@ -27,6 +32,11 @@ defaults:
       type: sims
     values:
       layout: sim
+  - scope:
+      path: ""
+      type: tutorials
+    values:
+      layout: sketch
 
 # Build settings
 markdown: kramdown
