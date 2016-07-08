@@ -8,5 +8,5 @@ location: http://ccny-physics-sims.github.io/sims/soundwaves-cyl/
 width: 400
 height: 400
 subject: physics
-topics: waves
+topics: sound
 ---
