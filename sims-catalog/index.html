@@ -27,11 +27,11 @@ permalink: /sims-catalog/
 
           <div class="a-sim">
               <div class="vignette sim-thumb">
-              <a href="{{sim.url}}">
+              <a href="{{site.baseurl}}{{sim.url}}">
               <img  src="{{site.baseurl}}/sim-imgs/{{sim.thumbnail}}-200.jpg" />
               </a>
               </div>
-              <a href="{{ sim.url }}">{{sim.title}}</a>
+              <a href="{{site.baseurl}}{{ sim.url }}">{{sim.title}}</a>
               <p>
                 {{sim.summary}}
               </p>
