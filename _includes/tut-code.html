@@ -1,0 +1,9 @@
+{% assign toshow = site.tutorials | where: "refno", include.whichSketch %}
+
+```javascript
+{{toshow[0] | remove: '<script>' | remove: '</script>'  }}
+```
+
+<iframe name="{{include.whichSketch}}" class="tut-canvas" src="{{site.baseurl}}{{toshow[0].url}}.html" width="500" height="200"></iframe>
+
+<button onclick="var ifr=document.getElementsByName('{{include.whichSketch}}')[0]; ifr.src=ifr.src;">Refresh Sketch</button>

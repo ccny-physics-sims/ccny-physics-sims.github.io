@@ -132,9 +132,11 @@ code {
     font-size: 15px;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
-    background-color: #eef;
+    background-color: $background-code;
 }
-
+pre.lineno {
+  background-color: darken($background-code, 25%);
+}
 code {
     padding: 1px 5px;
 }
