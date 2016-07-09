@@ -37,7 +37,7 @@ I put in a command to draw an ellipse. Inside the parenthesis for this command a
 
 {% assign toshow = site.tutorials | where: "refno", "1.1" %}
 
- <iframe class="tut-canvas" src="{{baseurl}}{{toshow[0].url}}.html" width="100" height="100"></iframe>
+ <iframe class="tut-canvas" src="{{site.baseurl}}{{toshow[0].url}}.html" width="100" height="100"></iframe>
 
 Congrats! You made an ellipse. However, it doesn't do anything.
 
@@ -51,7 +51,7 @@ Notice, I also added a small random number to each of the position arguments: `5
 
 {% assign toshow = site.tutorials | where: "refno", "1.2" %}
 
- <iframe class="tut-canvas"  src="{{baseurl}}{{toshow[0].url}}.html" width="100" height="100"></iframe>
+ <iframe class="tut-canvas"  src="{{site.baseurl}}{{toshow[0].url}}.html" width="100" height="100"></iframe>
 
  That should be enough to spark some interest. Maybe you're wondering: _are there other shapes?_ For sure. You'll need to consult the reference docs to learn how they work.
 
