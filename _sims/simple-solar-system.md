@@ -1,7 +1,7 @@
 ---
 title: Simple Solar System
 summary: add planets to a simple solar system
-thumbnail: simple-solar-system
+nice-name: simple-solar-system
 width: 400
 height: 400
 instructions: click to add an orbiter

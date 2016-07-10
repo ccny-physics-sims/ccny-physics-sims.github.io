@@ -1,10 +1,10 @@
 ---
 title: Vector Addition
 summary:
-thumbnail: vector-addition
+nice-name: vector-addition
 instructions:
 explanation:
-location: https://ccny-physics-sims.github.io/science-library/examples/vector-addition/
+location: https://ccny-physics-sims.github.io/sims/vector-addition/
 width: 800
 height: 600
 subject: math
