@@ -7,7 +7,7 @@ height: 400
 instructions: click to add an orbiter
 topics: circular-motion
 subject: physics
-location: https://ccny-physics-sims.github.io/sims/solarsystem/
+location: https://ccny-physics-sims.github.io/sims/simple-solar-system/
 ---
 
 
