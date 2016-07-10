@@ -28,6 +28,10 @@ collections:
     output: true
     permalink: p5scripts/:title
     layout: sketch
+  quick-tips:
+    output: true
+    permalink: quick-tips/:title
+    layout: tips
 
 
 defaults:
@@ -46,6 +50,12 @@ defaults:
       type: p5scripts
     values:
       layout: sketch
+  - scope:
+      path: ""
+      type: quick-tips
+    values:
+      layout: tips
+
 
 
 # Build settings

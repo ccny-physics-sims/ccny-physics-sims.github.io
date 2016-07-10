@@ -1,8 +1,8 @@
 ---
 layout: page
-title: About
-permalink: /about/
-navigation_weight: 1
+title: Tips
+permalink: /quick-tips/
+navigation_weight: 2
 ---
 
 Welcome to the Science Sims at CCNY. We build modern simulations to illustrate scientific principles.
