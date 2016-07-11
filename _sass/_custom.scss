@@ -67,3 +67,14 @@ section {
   border-radius: 50%;
   border: thin solid black;
 }
+
+
+ul.dev-contribs {
+  list-style-type: none;
+  margin: $spacing-unit/2 0 $spacing-unit/2 0 ;
+}
+
+ul.dev-contribs li {
+  margin-bottom: $spacing-unit / 2;
+
+}

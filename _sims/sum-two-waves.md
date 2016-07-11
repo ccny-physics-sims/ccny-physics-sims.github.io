@@ -9,4 +9,5 @@ width: 710
 height: 400
 subject: math
 topics: functions
+contributors: hedbergj
 ---

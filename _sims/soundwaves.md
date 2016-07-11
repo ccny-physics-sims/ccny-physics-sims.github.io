@@ -9,4 +9,5 @@ width: 700
 height: 300
 subject: physics
 topics: sound
+contributors: hedbergj
 ---

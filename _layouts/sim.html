@@ -33,4 +33,13 @@ layout: default
     <b>Developers: </b>View the code here:
     <a href="https://github.com/ccny-physics-sims/sims/tree/master/{{page.nice-name}}"><span class="icon icon--github">{% include icon-github.svg %}</span> Code</a>
   </p>
+  <p>
+    Main Contributors:
+  </p>
+  <ul class="dev-contribs">
+    {% for contributor in page.contributors %}
+    <li> <img width="50" src="https://github.com/{{contributor}}.png?size=50" />  <a href="https://github.com/{{contributor}}" >{{contributor}}</a>
+    </li>
+  {% endfor %}
+  </ul>
 </section>

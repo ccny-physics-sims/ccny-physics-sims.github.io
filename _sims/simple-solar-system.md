@@ -8,6 +8,7 @@ instructions: click to add an orbiter
 topics: circular-motion
 subject: physics
 location: https://ccny-physics-sims.github.io/sims/simple-solar-system/
+contributors: hedbergj
 ---
 
 
