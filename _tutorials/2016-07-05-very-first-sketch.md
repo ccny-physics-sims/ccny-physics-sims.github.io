@@ -11,6 +11,7 @@ tags:
  - intro
 ---
 
+{{site.p5scripts | where: "refno", "1.1"}}
 
 The quickest way to get started building a sim will be to download the p5 editor app. This app lets you build quick sims and see them in action without having to set up much.
 
@@ -28,14 +29,14 @@ The `setup()` function is called once in the beginning, when you press the play 
 
 So, let's start by putting something in the setup function:
 
+{% assign toshow = site.p5scripts | where: "refno", "1.1" %}
 
 ```javascript
-{{site.p5scripts | where: "refno", "1.1"}}
+{{toshow[0] | remove: '<script>' | remove: '</script>'  }}
 ```
 
 I put in a command to draw an ellipse. Inside the parenthesis for this command are 4 *arguments*. The indicate where the ellipse should be, and how big it should be. So, this ellipse will be located at `x=10` and `y=30` and it will have a horizontal diameter of `20px` and a vertical diameter of `40px`.
 
-{% assign toshow = site.p5scripts | where: "refno", "1.1" %}
 
  <iframe class="tut-canvas" src="{{site.baseurl}}{{toshow[0].url}}.html" width="100" height="100"></iframe>
 
@@ -43,8 +44,10 @@ Congrats! You made an ellipse. However, it doesn't do anything.
 
 So, let's put the ellipse command in the `draw()` function instead. This means it will get repeated about 30 times a second (depending on the speed of the computer).
 
+{% assign toshow = site.p5scripts | where: "refno", "1.2" %}
+
 ```javascript
-{{site.p5scripts | where: "refno", "1.2"}}
+{{toshow[0] | remove: '<script>' | remove: '</script>'  }}
 ```
 
 Notice, I also added a small random number to each of the position arguments: `50+random(-5,5)`. This means that every time the draw function is called, it will pick a new random number (between -5 and +5) to add to the original position. So, we expect a jittery, nervous looking ellipse on our canvas.
