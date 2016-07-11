@@ -24,14 +24,14 @@ collections:
     output: true
     permalink: tutorials/:title
     layout: post
-  p5scripts:
-    output: true
-    permalink: p5scripts/:title
-    layout: sketch
   quick-tips:
     output: true
     permalink: quick-tips/:title
     layout: tips
+  p5scripts:
+    output: true
+    permalink: p5scripts/:title
+    layout: sketch
 
 
 defaults:
@@ -47,15 +47,14 @@ defaults:
       layout: post
   - scope:
       path: ""
-      type: p5scripts
-    values:
-      layout: sketch
-  - scope:
-      path: ""
       type: quick-tips
     values:
       layout: tips
-
+  - scope:
+      path: ""
+      type: p5scripts
+    values:
+      layout: sketch
 
 
 # Build settings
