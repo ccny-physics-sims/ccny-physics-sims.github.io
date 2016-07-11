@@ -1,4 +1,4 @@
-{% assign toshow = site.tutorials | where: "refno", include.whichSketch %}
+{% assign toshow = site.p5scripts | where: "refno", include.whichSketch %}
 
 ```javascript
 {{toshow[0] | remove: '<script>' | remove: '</script>'  }}

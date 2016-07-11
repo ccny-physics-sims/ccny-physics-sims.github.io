@@ -16,14 +16,14 @@ This script does next to nothing. It shows the basic layout of a sketch. A setup
 `canvas = createCanvas(500, 200);` creates an object called `canvas` which is a canvas.
 
 
-{% include tut-code.html whichSketch="2.1" %}
+{% include code-sketch-view.html whichSketch="2.1" %}
 
 
 The next line: `background(200);` gives a background color, given by then number 200, which means make it gray. (0 would be black, 255 is white)
 
 Here it is:
 
-{% assign toshow = site.tutorials | where: "refno", "2.1" %}
+{% assign toshow = site.p5scripts | where: "refno", "2.1" %}
 
 <iframe class="tut-canvas" src="{{site.baseurl}}{{toshow[0].url}}.html" width="500" height="200"></iframe>
 
@@ -31,7 +31,7 @@ More: learn about colors in p5 here: [Color Ref](http://p5js.org/reference/#/p5/
 
 Now, let's put something in the draw function. We'll draw an [ellipse](http://p5js.org/reference/#/p5/ellipse) and put it in the center of the canvas. The `ellipse` function take 4 arguments: the first two numbers indicate its x and y positions. The second two are its horizontal and vertical radii. By saying: `width/2`, we are indicating to put the ellipse halfway across the `width` of the canvas. We could have also said 250, since the canvas is 500 pixels wide.
 
-{% include tut-code.html whichSketch="2.2" %}
+{% include code-sketch-view.html whichSketch="2.2" %}
 
 
 Now, we would like to incorporate some motion in our sketch. We'll do this by adding a small number to the x position of the ellipse every frame. We'll call that small number `dx` and set it equal to `1` (on line 3).
@@ -43,7 +43,7 @@ We'll also make some variable to store the x and y positions: `xpos` and `ypos`.
 Here is the sketch. **Note: you might need to click the refresh sketch button**
 
 
-{% include tut-code.html whichSketch="2.3" %}
+{% include code-sketch-view.html whichSketch="2.3" %}
 
 Things to play with:
 
@@ -55,4 +55,4 @@ We don't want to loose our happy little ellipse when it gets to the other end. H
 
 `if (xpos > width) { xpos=0; }`
 
-{% include tut-code.html whichSketch="2.4" %}
+{% include code-sketch-view.html whichSketch="2.4" %}

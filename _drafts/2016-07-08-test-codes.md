@@ -7,20 +7,20 @@ categories: coding
 
 
 
-{% assign codetoshow = site.collections.tutorials | where: 'id', 'simple-ellipse' %}
+{% assign codetoshow = site.collections.p5scripts | where: 'id', 'simple-ellipse' %}
 
 
 
 
 
- {{site.tutorials | where: "refno", "1.1"}} 
+ {{site.p5scripts | where: "refno", "1.1"}} 
 
 
 ```
-{{site.tutorials | where: "refno", "1.1"}}
+{{site.p5scripts | where: "refno", "1.1"}}
 ```
 
-{% assign toshow = site.tutorials | where: "refno", "1.1" %}
+{% assign toshow = site.p5scripts | where: "refno", "1.1" %}
 
  <iframe src="{{baseurl}}{{toshow[0].url}}.html"></iframe>
 
@@ -32,7 +32,7 @@ categories: coding
 
 
 
-{% assign codetoshow = site.tutorials | where: 'name', move-ellipse-fill %}
+{% assign codetoshow = site.p5scripts | where: 'name', move-ellipse-fill %}
 ```
 {{codetoshow[1]}}
 ```

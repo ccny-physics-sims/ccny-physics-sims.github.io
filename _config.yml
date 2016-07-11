@@ -20,13 +20,13 @@ collections:
     output: true
     permalink: sims/:title
     layout: sim
-  tutorials:
-    output: true
-    permalink: tutorials/:title
-    layout: sketch
   p5scripts:
     output: true
     permalink: p5scripts/:title
+    layout: sketch
+  tutorials:
+    output: true
+    permalink: tutorials/:title
     layout: sketch
   quick-tips:
     output: true
@@ -42,12 +42,12 @@ defaults:
       layout: sim
   - scope:
       path: ""
-      type: tutorials
+      type: p5scripts
     values:
       layout: sketch
   - scope:
       path: ""
-      type: p5scripts
+      type: tutorials
     values:
       layout: sketch
   - scope:
