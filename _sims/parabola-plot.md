@@ -10,4 +10,5 @@ height: 500
 subject: math
 topics: functions
 contributors: hedbergj
+updated: 2016-07-13 
 ---

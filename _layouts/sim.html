@@ -42,4 +42,10 @@ layout: default
     </li>
   {% endfor %}
   </ul>
+  {% if page.updated %}
+  <p>
+    Updated: {{page.updated | date: "%B %-d , %Y" }}
+  </p>
+  {% endif %}
+
 </section>
