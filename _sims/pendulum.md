@@ -7,8 +7,8 @@ explanation: pendulums follow sinusoidal motion
 location: https://ccny-physics-sims.github.io/sims/pendulum-plots/
 width: 800
 height: 460
-subject: math
-topics: functions
+subject: physics
+topics: oscillations
 contributors:
 - amurphy623
 - hedbergj
