@@ -18,7 +18,7 @@ github_username:  ccny-physics-sims
 collections:
   simdocs:
     output: true
-    permalink: sims/:title
+    permalink: simdocs/:title
     layout: sim
   tutorials:
     output: true
