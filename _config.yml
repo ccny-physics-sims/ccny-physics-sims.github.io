@@ -16,7 +16,7 @@ twitter_username: diysciencesims
 github_username:  ccny-physics-sims
 
 collections:
-  sims:
+  simdocs:
     output: true
     permalink: sims/:title
     layout: sim
@@ -37,7 +37,7 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: sims
+      type: simdocs
     values:
       layout: sim
   - scope:
