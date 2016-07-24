@@ -133,6 +133,11 @@ code {
     border: 1px solid $grey-color-light;
     border-radius: 3px;
     background-color: $background-code;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;
 }
 pre.lineno {
   background-color: darken($background-code, 25%);
