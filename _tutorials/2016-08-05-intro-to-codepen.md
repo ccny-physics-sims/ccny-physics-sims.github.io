@@ -27,17 +27,18 @@ Note that if you want to keep your new Pen, you must click the save button in th
 
 ### How to Use p5.js With CodePen
 
-p5.js is what's known as a JavaScript library. <!---A library is a collection of useful code snippets that you can include in your own program. For example, by including p5.js, we can draw a rectangle by writing ```rect(0, 0, 20, 20)```. This will draw a rectangle at (0,0) that is 20x20 in size. There's no need to manually specify how to draw a rectangle, because someone has already done it for us. We just have to tell the p5.js code snippet where we want our rectangle and how fat it should be, and it will handle the rest. ---> In order to use a JavaScript library on CodePen, you will need to:
+p5.js is what's known as a JavaScript library. In order to use a JavaScript library on CodePen, you will need to:
 
 <img src = "../post-imgs/codepen-intro/codepen2.png">
 
-1. Select the "Settings" tab in the top right corner of the page to bring up this menu. 
+<ol start="1">
+  <li>Select the "Settings" tab in the top right corner of the page to bring up this menu. </li></ol>
 
- <img src = "../post-imgs/codepen-intro/codepen3.png">
+<img src = "../post-imgs/codepen-intro/codepen3.png">
 <ol start="2">
   <li>Select the "JavaScript" option. </li></ol>
 
- <img src = "../post-imgs/codepen-intro/codepen5.png">
+<img src = "../post-imgs/codepen-intro/codepen5.png">
 
 <ol start="3">
   <li>Look for the "Add External JavaScript" field. Libraries are often hosted on CDNs (Content Delivery Networks). Below I have provided two links to a CDN that hosts the libraries we need. </li></ol>
