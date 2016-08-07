@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Intro to CodePen
-date:   2016-08-05 19:44:45 -0400
+date:   2016-08-07 19:44:45 -0400
 categories: coding
 author: C. Newcomer
 tags:
