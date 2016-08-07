@@ -76,7 +76,7 @@ function draw() {
 }
 ```
 
-Copy this snippet into the tab that says "JavaScript." 
+Copy this snippet into the tab that says "JavaScript." (Don't worry about the HTML and CSS tabs--they're ok on their own.)
 
 <img src = "../post-imgs/codepen-intro/codepen8.png">
 
