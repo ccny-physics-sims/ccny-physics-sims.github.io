@@ -8,7 +8,7 @@ author: J. Hedberg
 
 
 
-In the late 1960's, Frank Sinden, a mathematician at Bell Labs, created one of the earliest computer animations. It featured some basic examples of elementary physics: how a mass will respond to a force, the effects of the familiar inverse square law of Newtonian gravitation on particles, and even non-physical examples such as a force proportional to the cube of the distance between two objects. Each concept is accompanied by a strikingly simple, yet powerful animation. Here's the video below.
+In the late 1960's, Frank Sinden, a mathematician at Bell Labs, created one of the earliest computer animations. It featured some basic examples of elementary physics: how a mass will respond to a force, the effects of the familiar inverse square law of Newtonian gravitation on particles, and even non-physical examples such as a force proportional to the cube of the distance between two objects. Each concept is accompanied by a strikingly simple, yet powerful animation. Here's the video below. (you might need to allow 'unsafe scripts' to watch it. Or visit: <a href="http://techchannel.att.com/play-video.cfm/2012/8/20/AT&T-Archives-Force-Mass-Motion">here</a>)
 
 <iframe width="560" height="315" src="http://techchannel.att.com/embed/index.cfm?mediaID=11125&w=560&h=315" frameborder="0" allowfullscreen ></iframe>
 
