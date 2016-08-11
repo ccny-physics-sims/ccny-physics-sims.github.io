@@ -9,6 +9,7 @@ tags:
  - sims
  - p5
  - intro
+summary: Make your first sketch by following these instructions. 
 ---
 
 {{site.p5scripts | where: "refno", "1.1"}}

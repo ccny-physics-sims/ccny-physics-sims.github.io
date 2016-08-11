@@ -9,6 +9,7 @@ tags:
  - sims
  - p5
  - intro
+summary: A little walkthrough to learn how to make things move.
 ---
 
 This script does next to nothing. It shows the basic layout of a sketch. A setup function, and a draw function. We [create a canvas](http://p5js.org/reference/#/p5/createCanvas) with a width of 500 pixels and a height of 200 pixels, and we set its background color to be gray. Each sketch will have a canvas in which it operates.

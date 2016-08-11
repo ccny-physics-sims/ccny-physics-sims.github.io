@@ -9,6 +9,7 @@ tags:
  - sims
  - p5
  - intro
+summary: Just some basics about the types of files needed to run a simulation. 
 ---
 
 When it comes time to putting a sim on the web, for all to see and use, it has to follow some structural guidelines. There will be two files needed: a) `sketch.js` and b) `index.html`. They will both be in the same folder.

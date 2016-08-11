@@ -14,5 +14,7 @@ navigation_weight: 1
 ## Longer Tutorials:
 
 {% for tutorial in site.tutorials %}
-  - [{{tutorial.title}}]({{site.baseurl}}{{tutorial.url}})
+  - [{{tutorial.title}}]({{site.baseurl}}{{tutorial.url}}): 
+{{tutorial.summary}}
+
 {% endfor %}

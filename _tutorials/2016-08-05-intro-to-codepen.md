@@ -10,6 +10,7 @@ tags:
  - p5
  - intro
  - codepen
+summary: Learn how to use the online code editor Codepen to build some p5 sketches. 
 ---
 
 CodePen is an online text editor. It conveniently abstracts away most of the difficulty in setting up a development environment. For this reason, it is an excellent choice for beginners. This tutorial will show you how to use p5.js on the CodePen platform.
@@ -17,13 +18,13 @@ CodePen is an online text editor. It conveniently abstracts away most of the dif
 
 ### Create a Pen
 
-Make an account on <A HREF="http://codepen.io/">CodePen</a>. Then click "New Pen" to create your first Pen. 
+Make an account on <A HREF="http://codepen.io/">CodePen</a>. Then click "New Pen" to create your first Pen.
 
 <img src = "../post-imgs/codepen-intro/codepen1.png">
 
 The HTML, CSS, and JavaScript files that make up a basic web page will be created for you automatically. You can simply write your code in the appropriate tab. Each panel is <a href= "https://blog.codepen.io/documentation/editor/full-screen-editing/">resizable</a>. The display window, currently a blank white rectangle, shows a preview of your code's output. This preview will automatically refresh itself any time you update your code, allowing you to immediately see the results of the change.
 
-Note that if you want to keep your new Pen, you must click the save button in the upper right hand corner. Once you have done this, CodePen will automatically save your work every thirty seconds. 
+Note that if you want to keep your new Pen, you must click the save button in the upper right hand corner. Once you have done this, CodePen will automatically save your work every thirty seconds.
 
 ### How to Use p5.js With CodePen
 
@@ -47,7 +48,7 @@ p5.js is what's known as a JavaScript library. In order to use a JavaScript libr
 
  <li>
  <pre>https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.2/addons/p5.dom.js   </pre></li></ul>
- 
+
  P5.min.js is a compressed version of the basic p5.js library. P5.dom.js is an addon that will allow you to create sliders and buttons.
 
 **The order in which you list the libraries is important. The addon library p5.dom requires p5.js to run, so it must be loaded after p5.js.**
@@ -59,7 +60,7 @@ p5.js is what's known as a JavaScript library. In order to use a JavaScript libr
 
 ### Drawing an Ellipse in CodePen
 
-Now that you have your Pen set up, let's try to draw something. Here is a p5.js code snippet that draws a circle on a grey background: 
+Now that you have your Pen set up, let's try to draw something. Here is a p5.js code snippet that draws a circle on a grey background:
 
 ```
 var canvasWidth = 500;
@@ -80,27 +81,27 @@ Copy this snippet into the tab that says "JavaScript." (Don't worry about the HT
 
 <img src = "../post-imgs/codepen-intro/codepen8.png">
 
-Oh, we've got a sketch! But, it's kind of hard to see. We could scroll and squint, or resize the window panels, but it's easier to be lazy. 
+Oh, we've got a sketch! But, it's kind of hard to see. We could scroll and squint, or resize the window panels, but it's easier to be lazy.
 
 <img src = "../post-imgs/codepen-intro/codepen9.png">
 
-Click the "Change View" tab. 
+Click the "Change View" tab.
 
 <img src = "../post-imgs/codepen-intro/codepen11.png">
 
-Here at the bottom we can select from multiple docking configurations for the code editor panels. Let's select the left one. 
+Here at the bottom we can select from multiple docking configurations for the code editor panels. Let's select the left one.
 
 <img src = "../post-imgs/codepen-intro/codepen12.png">
 
-It's much easier to see this particular sketch, now! But, what if we want to preview it full screen? 
+It's much easier to see this particular sketch, now! But, what if we want to preview it full screen?
 
 <img src = "../post-imgs/codepen-intro/codepen14.png" style="max-height:500px;">
 
-Going back to our Change View menu, we see we have several other options. Select "Debug Mode." 
+Going back to our Change View menu, we see we have several other options. Select "Debug Mode."
 
 <img src = "../post-imgs/codepen-intro/codepen15.png" >
 
-Now we can see our Pen as it will look in the browser. 
+Now we can see our Pen as it will look in the browser.
 
 <b>As a free user, Debug Mode will only be visible to you. You will need to link others to either Full Page mode (also available from the Change View menu) or the default Editor View.</b>
 
@@ -115,15 +116,15 @@ Nice as CodePen is, we'll want to put our sketches up on our own site eventually
 
 <img src = "../post-imgs/codepen-intro/codepen17.png">
 
-Look down at the bottom right corner. 
+Look down at the bottom right corner.
 
 <img src = "../post-imgs/codepen-intro/codepen18.png">
 
-Click "Export .zip." 
+Click "Export .zip."
 
 <img src = "../post-imgs/codepen-intro/codepen19.png">
 
-Unzip the archive, then double-click "index.html." You should see your ellipse displayed in your browser. 
+Unzip the archive, then double-click "index.html." You should see your ellipse displayed in your browser.
 
 **Investigating these exported files should also give some insight into how a basic webpage is put together.**
 
@@ -133,21 +134,21 @@ Your browser contains something called a console. (If you've programmed before, 
 
 <img src = "../post-imgs/codepen-intro/codepen20.png">
 
-Suppose we have accidentally mangled the spelling of the p5.js function "ellipse." 
+Suppose we have accidentally mangled the spelling of the p5.js function "ellipse."
 
 <img src = "../post-imgs/codepen-intro/codepen21.jpg">
 
-Why is there no circle? The console will usually give us some idea of what went wrong. If you click the triangle to the left of "Uncaught ReferenceError," it will expand to reveal even more information. "Elipse is not defined" should call our attention to the fact that we've made a typo. More mysterious error messages can usually be resolved by performing a Google search containing it in the search query. 
+Why is there no circle? The console will usually give us some idea of what went wrong. If you click the triangle to the left of "Uncaught ReferenceError," it will expand to reveal even more information. "Elipse is not defined" should call our attention to the fact that we've made a typo. More mysterious error messages can usually be resolved by performing a Google search containing it in the search query.
 
 <b>You may have noticed there's a "Console" setting on the lower left side of the CodePen window. This is a simulated console and it can be sort of buggy. I would avoid using it. The real console is much more trustworthy and just as easy to use. </b>
 
 ### Troubleshooting Using CodePen
 
-CodePen's text editor has a built in error detector. It won't catch everything, but it'll catch some things. 
+CodePen's text editor has a built in error detector. It won't catch everything, but it'll catch some things.
 
 <img src = "../post-imgs/codepen-intro/codepen22.png">
 
-Sometimes a red circle or triangle will appear. Click it and it will give you a hint as to what went wrong. 
+Sometimes a red circle or triangle will appear. Click it and it will give you a hint as to what went wrong.
 
 <img src = "../post-imgs/codepen-intro/codepen23.png">
 
@@ -159,7 +160,7 @@ CodePen will do its best to indent your code for you as you go, but sometimes a 
 
 <img src = "../post-imgs/codepen-intro/codepen24.png">
 
-This code is functional, but a little untidy. Let's fix that. 
+This code is functional, but a little untidy. Let's fix that.
 
 <img src = "../post-imgs/codepen-intro/codepen25.png">
 
@@ -172,4 +173,3 @@ Ta-da!
 ### Summary
 
 CodePen's excellent for quickly prototyping small projects or trying out new techniques. It also makes it easy to share something with a friend or coworker--since it's already online, all you have to do is send them the link!
-
