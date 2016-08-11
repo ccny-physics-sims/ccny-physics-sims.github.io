@@ -5,11 +5,10 @@ nice-name: triangle-wave
 instructions: Select how many sine functions to use.
 explanation:
 location: https://ccny-physics-sims.github.io/sims/triangle-wave/
-width: 600
+width: 700
 height: 400
 subject: math
 topics: functions
 contributors: hedbergj
-updated: 2016-08-10 
-
+updated: 2016-08-10
 ---

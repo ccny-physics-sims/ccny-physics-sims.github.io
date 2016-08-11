@@ -78,3 +78,20 @@ ul.dev-contribs li {
   margin-bottom: $spacing-unit / 2;
 
 }
+
+.team-member {
+  width: 40%;
+  float: left;
+  overflow: auto;
+  margin: 0 10px 10px 0;
+}
+.team-member img {
+  float: left;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+.team-member ul {
+  list-style-type: none;
+  list-style-position: outside;
+  margin-left: 0px;
+}

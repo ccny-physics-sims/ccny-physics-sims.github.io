@@ -7,8 +7,8 @@ explanation: This is a replica of a very early computer simulation. Watch the vi
 location: https://ccny-physics-sims.github.io/sims/force-motion/
 width: 500
 height: 500
-subject: historical
-topics: kinematics
+subject: physics
+topics: historical
 contributors: hedbergj
 updated: 2016-08-10
 ---

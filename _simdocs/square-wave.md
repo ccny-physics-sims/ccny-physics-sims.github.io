@@ -5,7 +5,7 @@ nice-name: square-wave
 instructions: Select how many sine functions to use.
 explanation:
 location: https://ccny-physics-sims.github.io/sims/square-wave/
-width: 600
+width: 700
 height: 400
 subject: math
 topics: functions
