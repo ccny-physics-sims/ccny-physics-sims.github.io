@@ -29,7 +29,7 @@ Our team is pretty awesome. We have a wide range of coders contributing to the p
 <img src="../img/aa.jpg" width="100">
 <ul>
 <li>Avraham Areman</li>
-<li>Comp. Science Junior, CCNY</li>
+<li>Computer Engineering, Senior, CCNY</li>
 </ul>
 </div>
 

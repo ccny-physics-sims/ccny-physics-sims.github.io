@@ -95,3 +95,22 @@ ul.dev-contribs li {
   list-style-position: outside;
   margin-left: 0px;
 }
+
+a.sim-button {
+  //width:100px;
+  padding: 10px 15px;
+  font-size: 15px;
+  font-family:Helvetica, sans-serif;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+  color: #fff;
+  background-color: #747474;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 6px #999;
+}
+
+a.sim-button:hover {
+	background-color: #58585a
+}
