@@ -16,3 +16,7 @@ The goal of this project is twofold:
 We use modern web tools to build ultra clear simulations that illustrate an abstract concept or idea from basic science, without cluttering the screen with unnecessary elements.
 
 Check out our [team](/people/)!
+
+-----
+
+This project is funded via CUNY Advance and a PSC-CUNY Enhanced grant.
