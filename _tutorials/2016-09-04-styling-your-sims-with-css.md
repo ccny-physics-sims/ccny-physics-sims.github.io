@@ -14,7 +14,7 @@ summary: Want to spruce up your sim? Use our style sheet to make it pretty.
 
 When we use certain elements in a sim, like a slider or a button, we have the option of styling it. This means, we can select a color, shape, even behavior (eg should it change color when your mouse hovers over it?). To unify the our science sims, we now have a stylesheet that can be applied to all these element so that our buttons and sliders looks and act the same across all the sims. This makes them easier to use by reducing the overhead associated with varying designs.
 
-To begin using the style sheet, we first need to get it! That can be done by adding the following line to the `<head>` section of your `index.html` file. (Make sure to read files and folders too!)
+To begin using the style sheet, we first need to get it! That can be done by adding the following line to the `<head>` section of your `index.html` file. (Make sure to read the tutorial [files and folders](files-and-folders) if you're not happy with this sentence!)
 
 ```html
 <link href="https://ccny-physics-sims.github.io/sim-design/sims-styles.css" rel="stylesheet" />
