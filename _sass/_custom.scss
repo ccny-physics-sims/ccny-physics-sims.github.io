@@ -11,6 +11,12 @@ iframe.tut-canvas {
   background: $grey-color-light;
 }
 
+.sim iframe {
+  padding: 10px;
+   overflow-y: hidden;
+  overflow-x: hidden;
+   border: thin solid black;
+}
 .subject {
   clear: both;
 }
