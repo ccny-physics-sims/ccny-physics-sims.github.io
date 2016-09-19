@@ -5,7 +5,7 @@ nice-name: visualizing-averages
 instructions:
 explanation:
 location: https://ccny-physics-sims.github.io/sims/visualizing-averages/
-width: 600
+width: 650
 height: 600
 subject: math
 topics: algebra
