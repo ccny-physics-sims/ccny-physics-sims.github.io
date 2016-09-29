@@ -36,7 +36,9 @@ Our sims our designed to do one thing and to do that one thing well and with as 
 
 ### Usability
 
-The point of the sim is to help understand a concept from science, so we don't want to complicate this by demanding the user _also figure out how to use the sim_ in addition to learning the physics. A sim should be simple enough that a user can look at it and know immediately what to do.
+The point of the sim is to help understand a concept from science, so we don't want to complicate this by demanding the user _also figure out how to use the sim_ in addition to learning the physics. A sim should be simple enough that a user can look at it and know immediately what to do. Some specifics:
+
+  1. Unless it is absolutely necessary, **keyboard entry should be avoided**. Requiring left or right arrows for example will leave mobile users stranded with a broken sim. Instead, sliders or buttons can be used to do the same thing.
 
 ![Bad user interface](/img/badui2.jpg)
 
@@ -47,7 +49,7 @@ The point of the sim is to help understand a concept from science, so we don't w
 By having a unified design, we can reduce the cognitive load experienced by the user. We have a stylesheet to create consistent buttons and other input elements. All the 'design' elements should be there for a reason. Even if a design element _looks cool_ it should not become a distraction from the science of the sim.
 
   1. Backgrounds should be white.
-  - Exception: doing a space sim? The maybe outer space should be black.
+  - Exception: doing a space sim? Then maybe outer space should be black.
   2. Lines and text should be black.
   - Exception: if color is needed to identify differences, then use it.
   3. Keep the amount of text needed to a minimum.
