@@ -42,7 +42,7 @@ The point of the sim is to help understand a concept from science, so we don't w
 
 ![Bad user interface](/img/badui2.jpg)
 
-<p class="callout">Design Principle: A use should look at a sim and know immediately what to do. They might not understand the science behind it yet, but they shouldn't struggle with learning the interface.</p>
+<p class="callout">Design Principle: A user should look at a sim and know (nearly) immediately what to do. They might not understand the science behind it yet, but they shouldn't struggle with learning the interface.</p>
 
 ### Design
 

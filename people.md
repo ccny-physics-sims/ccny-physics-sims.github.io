@@ -15,9 +15,8 @@ Our team is pretty awesome. We have a wide range of coders contributing to the p
 <div class="team-member">
 <img src="../img/jh.jpg" width="100">
 <ul>
-<li>Dr. James Hedberg</li>
+<li><a href="http://www.jameshedberg.com">Dr. James Hedberg</a></li>
 <li>Physics Dept, CCNY</li>
-<li><a href="http://www.jameshedberg.com">Personal Site</a></li>
 </ul>
 </div>
 
@@ -83,9 +82,9 @@ Our team is pretty awesome. We have a wide range of coders contributing to the p
 </div>
 
 <div class="team-member">
-<img src="../img/nopic.jpg" width="100">
+<img src="../img/br.jpg" width="100">
 <ul>
-<li>Blake Rayvid</li>
+<li><a href="http://bbr.nyc/edu/">Blake Rayvid</a></li>
 <li>Sophomore, CCNY</li>
 </ul>
 </div>

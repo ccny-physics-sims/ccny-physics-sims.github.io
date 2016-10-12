@@ -147,3 +147,167 @@ p.callout {
 .footer-logos img:last-of-type {
   margin: 0 0 2% 0;
 }
+.simple-table {
+    /* Remove spacing between table cells (from Normalize.css) */
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    border: 1px solid #cbcbcb;
+}
+
+.simple-table caption {
+    color: #000;
+    font: italic 85%/1 arial, sans-serif;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.simple-table td,
+.simple-table th {
+    border-left: 1px solid #cbcbcb;/*  inner column border */
+    border-width: 0 0 0 1px;
+    font-size: inherit;
+    margin: 0;
+    overflow: visible; /*to make ths where the title is really long work*/
+    padding: 0.2em .5em; /* cell padding */
+}
+
+/* Consider removing this next declaration block, as it causes problems when
+there's a rowspan on the first cell. Case added to the tests. issue#432 */
+.simple-table td:first-child,
+.simple-table th:first-child {
+    border-left-width: 0;
+}
+
+.simple-table thead {
+    background-color: #e0e0e0;
+    color: #000;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+/*
+striping:
+   even - #fff (white)
+   odd  - #f2f2f2 (light gray)
+*/
+.simple-table td {
+    background-color: transparent;
+}
+.simple-table-odd td {
+    background-color: #f2f2f2;
+}
+
+/* nth-child selector for modern browsers */
+.simple-table-striped tr:nth-child(2n-1) td {
+    background-color: #f2f2f2;
+}
+
+/* BORDERED TABLES */
+.simple-table-bordered td {
+    border-bottom: 1px solid #cbcbcb;
+}
+.simple-table-bordered tbody > tr:last-child > td {
+    border-bottom-width: 0;
+}
+
+
+/* HORIZONTAL BORDERED TABLES */
+
+.simple-table-horizontal td,
+.simple-table-horizontal th {
+    border-width: 0 0 1px 0;
+    border-bottom: 1px solid #cbcbcb;
+}
+.simple-table-horizontal tbody > tr:last-child > td {
+    border-bottom-width: 0;
+}
+
+/* SIM BUTTON */
+.sim-button {
+  // width:80px;
+  padding: 10px 20px;
+  font-size: 13px;
+  font-family:Helvetica, sans-serif;
+  font-weight:bold;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+  color: #fff;
+  background-color: #94c6d8;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.sim-button:hover {
+	background-color: #80a7b5
+}
+
+.sim-button:active {
+  background-color: #80a7b5;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.sim-button.red {
+  background-color: #b27775;
+}
+
+.sim-button.red:hover{background-color: #9f4b48;}
+
+.sim-button.red:active {
+  background-color: #9f4b48;
+}
+
+.sim-button.gray{
+	background-color: #747474;
+}
+
+.sim-button.gray:hover{background-color: #58585a;}
+
+.sim-button.gray:active {
+  background-color: #58585a;
+}
+.sim-button.slim {
+  padding: 4px 8px;
+  font-size: 12px;
+  border-radius: 8px;
+  box-shadow: 0 5px #999;
+}
+.sim-button.slim:active {
+  background-color: #80a7b5;
+  box-shadow: 0 2px #666;
+  transform: translateY(2px);
+}
+@media screen and (min-width: 40.5em) {
+.sim-button {
+  // width:100px;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-family:Helvetica, sans-serif;
+  font-weight:bold;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+  color: #fff;
+  background-color: #94c6d8;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+	letter-spacing: 1px;
+}
+
+.sim-button:hover {background-color: #80a7b5;}
+
+.sim-button:active {
+  background-color: #80a7b5;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.sim-button.slim {
+  padding: 4px 8px;
+}
+
+}

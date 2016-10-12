@@ -4,6 +4,7 @@
 {{toshow[0] | remove: '<script>' | remove: '</script>'  }}
 ```
 
-<iframe name="{{include.whichSketch}}" class="tut-canvas" src="{{site.baseurl}}{{toshow[0].url}}.html" width="{{toshow[0].width}}" height="{{toshow[0].height}}"></iframe>
+<iframe name="{{include.whichSketch}}" class="tut-canvas"  width="{{toshow[0].width}}" height="{{toshow[0].height}}"></iframe>
 
-<button onclick="var ifr=document.getElementsByName('{{include.whichSketch}}')[0]; ifr.src=ifr.src;">Refresh Sketch</button>
+<button class="sim-button" onclick="var ifr=document.getElementsByName('{{include.whichSketch}}')[0]; ifr.src='{{site.baseurl}}{{toshow[0].url}}.html' ">Play Sketch</button>
+<!-- <button onclick="var ifr=document.getElementsByName('{{include.whichSketch}}')[0]; ifr.src=ifr.src;">Reload Sketch</button> -->
