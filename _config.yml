@@ -32,6 +32,10 @@ collections:
     output: true
     permalink: p5scripts/:title
     layout: sketch
+  sciencejsexamples:
+    output: true
+    permalink: sciencejsexamples/:title
+    layout: asciencejsexample
 
 
 defaults:
@@ -55,7 +59,11 @@ defaults:
       type: p5scripts
     values:
       layout: sketch
-
+  - scope:
+      path: ""
+      type: sciencejsexamples
+    values:
+      layout: asciencejsexample
 
 # Build settings
 kramdown:

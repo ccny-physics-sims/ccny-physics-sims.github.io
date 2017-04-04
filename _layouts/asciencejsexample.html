@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+
+<article class="sim">
+<h2>{{page.title}}</h2>
+<iframe src="{{ page.location }}" width =" {{ page.width }}" height=" {{ page.height }}" name="hi"></iframe>
+</article>
+
+
+
+<section class="code-links">
+  <p>
+    <b>Developers: </b>View the code here:
+    <a href="https://github.com/ccny-physics-sims/science-library/blob/master/examples/{{page.nice-name}}/sketch.js"><span class="icon icon--github">{% include icon-github.svg %}</span> Code</a>
+  </p>
+  <p>
+    Main Contributors:
+  </p>
+  <ul class="dev-contribs">
+    {% for contributor in page.contributors %}
+    <li> <img width="50" src="https://github.com/{{contributor}}.png?size=50" />  <a href="https://github.com/{{contributor}}" >{{contributor}}</a>
+    </li>
+  {% endfor %}
+  </ul>
+  {% if page.updated %}
+  <p>
+    Updated: {{page.updated | date: "%B %-d , %Y" }}
+  </p>
+  {% endif %}
+
+</section>

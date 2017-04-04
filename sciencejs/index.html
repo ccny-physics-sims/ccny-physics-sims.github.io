@@ -1,0 +1,42 @@
+---
+layout: page
+title: Science.js
+permalink: /sciencejs/
+navigation_weight: 1
+---
+
+
+
+{% assign subjectgroups = site.sciencejsexamples | group_by: "subject" %}
+
+
+
+{% for item in subjectgroups %}
+
+
+    <h2 class="subject">{{ item.name }}</h2>
+
+
+    {% assign topicgroups = item.items | group_by: "topics" %}
+
+    {% for item in topicgroups %}
+
+    <h3 class="topic">{{item.name}}</h3>
+
+
+      {% for sim in item.items %}
+
+          <div class="a-sim">
+              
+              <a href="{{ sim.url | prepend: site.baseurl }}">{{sim.title}}</a>
+              <p>
+                {{sim.summary}}
+              </p>
+          </div>
+
+
+      {%endfor%}
+
+    {%endfor%}
+
+{%endfor%}
