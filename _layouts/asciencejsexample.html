@@ -8,13 +8,15 @@ layout: default
 <iframe src="{{ page.location }}" width =" {{ page.width }}" height=" {{ page.height }}" name="hi"></iframe>
 </article>
 
+ <h2>Source Code</h2>
+  
+<div id="embedded-code"></div>
 
 
 <section class="code-links">
-  <p>
-    <b>Developers: </b>View the code here:
-    <a href="https://github.com/ccny-physics-sims/science-library/blob/master/examples/{{page.nice-name}}/sketch.js"><span class="icon icon--github">{% include icon-github.svg %}</span> Code</a>
-  </p>
+
+
+
   <p>
     Main Contributors:
   </p>
@@ -31,3 +33,16 @@ layout: default
   {% endif %}
 
 </section>
+
+<script>
+ githubEmbed('#embedded-code', {
+    	"owner": "ccny-physics-sims",
+        "repo": "science-library",
+        "ref": "{{page.embed-path}}",
+ 
+    	"embed": [{
+    		"path": "sketch.js",
+          "label": "sketch.js",
+    	}]
+    });
+</script>
