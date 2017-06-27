@@ -5,8 +5,8 @@ nice-name: rolling-without-slipping
 instructions: Watch it roll!
 explanation:
 location: 
-location: https://ccny-physics-sims.github.io/science-library/examples/rotating-without-sliding
-embed-path: gh-pages/examples/rotating-without-sliding
+location: https://ccny-physics-sims.github.io/science-library/examples/rolling-without-slipping
+embed-path: gh-pages/examples/rolling-without-slipping
 custom-css: github-embed
 custom-js: github-embed-min
 width: 800

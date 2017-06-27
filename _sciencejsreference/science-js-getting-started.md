@@ -1,7 +1,7 @@
 ---
 title: Science.js 101
 subject: Reference
-topics: Basic Usage
+topics: Setup
 summary: Getting started with Science.js. 
 nice-name: science-js-lib-getting-started
 contributors:

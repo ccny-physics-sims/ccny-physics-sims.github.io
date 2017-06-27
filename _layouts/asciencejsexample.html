@@ -5,14 +5,24 @@ layout: default
 
 <article class="sim">
 <h2>{{page.title}}</h2>
-<iframe src="{{ page.location }}" width =" {{ page.width }}" height=" {{ page.height }}" name="hi"></iframe>
+<div class = "sketch-frame-container">
+<iframe src="{{ page.location }}" id = "sketch-frame" ></iframe></div>
+
 </article>
 
+<section class="sim-isolated">
+  <p>
+    <b>Link to stand-alone sim: </b> Here is a link to view the sim on its own, with no distractions.
+  </p>
+  <a class="sim-button" href="{{ page.location }}">Stand alone sim</a>
+</section>
+
+<section class = "embedded-code">
  <h2>Source Code</h2>
   
 <div id="embedded-code"></div>
 
-
+</section>
 <section class="code-links">
 
 

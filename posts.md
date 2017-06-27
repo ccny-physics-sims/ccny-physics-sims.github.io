@@ -3,6 +3,7 @@ layout: page
 title: Posts
 permalink: /posts/
 navigation_weight: 1
+order: 3
 ---
 
 <ul>
