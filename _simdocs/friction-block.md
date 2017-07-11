@@ -1,5 +1,5 @@
 ---
-title: A block on a ramp with Friction
+title: A Block on a Ramp, with Friction
 summary: See how a block on a ramp will respond to the angle of the ramp and a shoving force.
 nice-name: friction-block
 instructions: Use the sliders to adjust the relevant paraments

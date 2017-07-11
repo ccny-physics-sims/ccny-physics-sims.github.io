@@ -3,6 +3,7 @@ layout: page
 title: People
 permalink: /people/
 navigation_weight: 1
+order: 5
 ---
 
 Our team is pretty awesome. We have a wide range of coders contributing to the project:

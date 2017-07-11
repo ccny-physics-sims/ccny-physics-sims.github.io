@@ -3,6 +3,7 @@ layout: page
 title: Learning
 permalink: /learning/
 navigation_weight: 1
+order: 4
 ---
 
 ## Some quick tips:

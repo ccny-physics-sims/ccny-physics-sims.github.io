@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about/
 navigation_weight: 1
+order: 6
 ---
 
 Welcome to the Science Sims at CCNY. We build modern simulations to illustrate scientific principles.

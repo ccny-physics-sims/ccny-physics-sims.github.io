@@ -5,16 +5,28 @@ layout: default
 
 <article class="sim">
 <h2>{{page.title}}</h2>
-<iframe src="{{ page.location }}" width =" {{ page.width }}" height=" {{ page.height }}" name="hi"></iframe>
+<div class = "sketch-frame-container">
+<iframe src="{{ page.location }}" id = "sketch-frame" ></iframe></div>
+
 </article>
 
-
-
-<section class="code-links">
+<section class="sim-isolated">
   <p>
-    <b>Developers: </b>View the code here:
-    <a href="https://github.com/ccny-physics-sims/science-library/blob/master/examples/{{page.nice-name}}/sketch.js"><span class="icon icon--github">{% include icon-github.svg %}</span> Code</a>
+    <b>Link to stand-alone sim: </b> Here is a link to view the sim on its own, with no distractions.
   </p>
+  <a class="sim-button" href="{{ page.location }}">Stand alone sim</a>
+</section>
+
+<section class = "embedded-code">
+ <h2>Source Code</h2>
+  
+<div id="embedded-code"></div>
+
+</section>
+<section class="code-links">
+
+
+
   <p>
     Main Contributors:
   </p>
@@ -31,3 +43,16 @@ layout: default
   {% endif %}
 
 </section>
+
+<script>
+ githubEmbed('#embedded-code', {
+    	"owner": "ccny-physics-sims",
+        "repo": "science-library",
+        "ref": "{{page.embed-path}}",
+ 
+    	"embed": [{
+    		"path": "sketch.js",
+          "label": "sketch.js",
+    	}]
+    });
+</script>

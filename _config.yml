@@ -36,6 +36,10 @@ collections:
     output: true
     permalink: sciencejsexamples/:title
     layout: asciencejsexample
+  sciencejsreference:
+    output: true
+    permalink: sciencejsreference/:title
+    layout: post
 
 
 defaults:
@@ -82,3 +86,4 @@ kramdown:
     block:
       line_numbers: true
       start_line: 1
+
