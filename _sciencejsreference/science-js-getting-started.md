@@ -2,10 +2,11 @@
 title: Science.js 101
 subject: Reference
 topics: Setup
-summary: Getting started with Science.js. 
+summary: Getting started with Science.js.
 nice-name: science-js-lib-getting-started
 contributors:
-updated: 2017-04-05
+updated: 2017-04-05 16:23:00 -0400
+date: 2016-07-05 16:23:00 -0400
 layout: post
 ---
 

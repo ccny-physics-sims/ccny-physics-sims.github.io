@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Philosophy Behind Designing a Sim
-date:   2016-09-04 09:23:00 -0400
+date: 2016-09-04 09:23:00 -0400
 categories: physics
 author: J. Hedberg
 ---

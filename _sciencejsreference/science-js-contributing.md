@@ -5,7 +5,8 @@ topics: Contributing
 summary: Have a cool feature to add to the library? Before submitting a pull request, read through here first.
 nice-name: science-js-lib-contributions
 contributors:
-updated: 2017-04-05
+updated: 2017-04-05 16:23:00 -0400
+date: 2016-07-05 16:23:00 -0400
 layout: post
 ---
 
@@ -33,4 +34,4 @@ To maintain uniformity, please use the following conventions.
 
 2. Variable naming. As per Javascript standard, please use camelcase rather than snakecase. For example, `myRadVariable,` not `my_rad_variable.`
 
-3. Please use two spaces to indent when writing code for @examples in JSDoc. (Check for lurking tabs if the white space is coming out weird post JSDocing.) You'll also need to include a single space between the "*" and your "//" for it to compile comments ok. 
+3. Please use two spaces to indent when writing code for @examples in JSDoc. (Check for lurking tabs if the white space is coming out weird post JSDocing.) You'll also need to include a single space between the "*" and your "//" for it to compile comments ok.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  A vintage simulation, redone.
-date:   2016-08-10 16:23:00 -0400
+date: 2016-08-10 16:23:00 -0400
 categories: physics
 author: J. Hedberg
 ---
