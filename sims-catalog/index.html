@@ -10,12 +10,17 @@ order: 1
 
 {% assign subjectgroups = site.simdocs | group_by: "subject" %}
 
+<ol id="subject-list">
+{% for item in subjectgroups %}
+<li><a href="#{{item.name}}">{{item.name}}</a></li>
 
+{%endfor%}
+</ol>
 
 {% for item in subjectgroups %}
 
 
-    <h2 class="subject">{{ item.name }}</h2>
+<h2 id="{{item.name}}" class="subject">{{ item.name }} Simulations</h2>
 
 
     {% assign topicgroups = item.items | group_by: "topics" %}
