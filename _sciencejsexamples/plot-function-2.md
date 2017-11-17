@@ -1,5 +1,5 @@
 ---
-title: Plot a Change a Function
+title: Plot and Change a Function
 summary: How you can plot a simple function with a controllable parameter
 nice-name: plot-function-2
 instructions:
