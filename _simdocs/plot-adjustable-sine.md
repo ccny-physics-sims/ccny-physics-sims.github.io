@@ -1,10 +1,10 @@
 ---
 title: Adjustable Sine Function
 summary: Change the coefficients that determine a basic sine function
-nice-name: plot-sine-function
+nice-name: plot-adjustable-sine
 instructions: Move the sliders to adjust the amplitude and the omega (period).
 explanation: A regular sine function
-location: https://ccny-physics-sims.github.io/sims/plot-sine-function/
+location: https://ccny-physics-sims.github.io/sims/plot-adjustable-sine/
 width: 700
 height: 500
 subject: math
