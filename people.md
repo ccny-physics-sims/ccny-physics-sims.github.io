@@ -6,7 +6,7 @@ navigation_weight: 1
 order: 5
 ---
 
-Our team is pretty awesome. We have a wide range of coders contributing to the project:
+Our team is pretty awesome. We have a wide range of coders contribute to the project:
 
 ### Team
 
@@ -16,84 +16,34 @@ Our team is pretty awesome. We have a wide range of coders contributing to the p
 <div class="team-member">
 <img src="../img/jh.jpg" width="100">
 <ul>
-<li><a href="http://www.jameshedberg.com">Dr. James Hedberg</a></li>
+<li><a href="https://hedberg.ccnysites.cuny.edu/">Dr. James Hedberg</a></li>
 <li>Physics Dept, CCNY</li>
 </ul>
 </div>
 
 <br style="clear:both;"/>
 
-#### Developers
+#### Past Developers and Contributors
 
-<div class="team-member">
-<img src="../img/aa.jpg" width="100">
-<ul>
-<li>Avraham Areman</li>
-<li>Computer Engineering, Senior, CCNY</li>
-</ul>
-</div>
+<ul class="dev-contribs">
 
-<div class="team-member">
-<img src="../img/rc.jpg" width="100">
-<ul>
-<li>Ryan Can</li>
-<li>Mechanical Engineering, Junior, CCNY</li>
-</ul>
-</div>
-
-<div class="team-member">
-<img src="../img/ce.jpg" width="100">
-<ul>
-<li>Chaim Eisenbach</li>
-<li>Mathematics, Sophomore, Queens College</li>
-</ul>
-</div>
-
-<div class="team-member">
-<img src="../img/rh.jpg" width="100">
-<ul>
-<li>Rachel Hia</li>
-<li>Mathematics, Sophomore, Queens College</li>
-</ul>
-</div>
-
-<div class="team-member">
-<img src="../img/nopic.jpg" width="100">
-<ul>
-<li>Leon Hui</li>
-<li>Electronic Media, CCNY</li>
-</ul>
-</div>
-
-<div class="team-member">
-<img src="../img/nopic.jpg" width="100">
-<ul>
-<li>Adrian Logan</li>
-<li>Computer Science, CCNY</li>
-</ul>
-</div>
-
-<div class="team-member">
-<img src="../img/cn.jpg" width="100">
-<ul>
-<li><a href="http://engineerwithoutfear.com/">Cassandra Newcomer</a></li>
-<li>Electrical Engineering, Sophomore, CCNY</li>
+  <li> <img width="50" src="https://github.com/aareman.png?size=50" />  <a href="https://github.com/aareman" >Avraham Areman</a>
+  </li>
+  <li> <img width="50" src="https://github.com/brayvid.png?size=50" />  <a href="https://github.com/brayvid" >Blake Rayvid</a>
+  </li>
+  <li> <img width="50" src="https://github.com/ceisenbach.png?size=50" />  <a href="https://github.com/ceisenbach" >Chaim Eisenbach</a>
+  </li>
+  <li> <img width="50" src="https://github.com/DonkeyKongsTie.png?size=50" />  <a href="https://github.com/DonkeyKongsTie" >Simon Savitt</a>
+  </li>
+  <li> <img width="50" src="https://github.com/engineerwithoutfear.png?size=50" />  <a href="https://github.com/engineerwithoutfear" >Cassandra Newcomer</a>
+  </li>
+  <li> <img width="50" src="https://github.com/leon0212.png?size=50" />  <a href="https://github.com/leon0212" >Leon Hui</a>
+  </li>
+  <li> <img width="50" src="https://github.com/ryancan.png?size=50" />  <a href="https://github.com/ryancan" >Ryan Can</a>
+  </li>
+  <li> <img width="50" src="https://github.com/TheGreatElectron.png?size=50" />  <a href="https://github.com/TheGreatElectron" >Adrian Logan</a>
+  </li>
+  <li> <img width="50" src="https://github.com/amurphy623.png?size=50" />  <a href="https://github.com/amurphy623" >Abigail Murphy</a>
+  </li>
 
 </ul>
-</div>
-
-<div class="team-member">
-<img src="../img/br.jpg" width="100">
-<ul>
-<li><a href="http://bbr.nyc/edu/">Blake Rayvid</a></li>
-<li>Sophomore, CCNY</li>
-</ul>
-</div>
-
-<div class="team-member">
-<img src="../img/nopic.jpg" width="100">
-<ul>
-<li>Simon Savitt</li>
-<li>Physics, Sophomore, CCNY</li>
-</ul>
-</div>
