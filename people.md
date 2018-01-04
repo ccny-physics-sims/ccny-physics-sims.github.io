@@ -27,7 +27,7 @@ Our team is pretty awesome. We have a wide range of coders contribute to the pro
 
 <ul class="dev-contribs">
 
-  <li> <img width="50" src="https://github.com/aareman.png?size=50" />  <a href="https://github.com/aareman" >Avraham Areman</a>
+  <li> <img style="border-radius: 10px;" width="50" src="https://github.com/aareman.png?size=50" />  <a href="https://github.com/aareman" >Avraham Areman</a>
   </li>
   <li> <img width="50" src="https://github.com/brayvid.png?size=50" />  <a href="https://github.com/brayvid" >Blake Rayvid</a>
   </li>
@@ -35,7 +35,7 @@ Our team is pretty awesome. We have a wide range of coders contribute to the pro
   </li>
   <li> <img width="50" src="https://github.com/DonkeyKongsTie.png?size=50" />  <a href="https://github.com/DonkeyKongsTie" >Simon Savitt</a>
   </li>
-  <li> <img width="50" src="https://github.com/engineerwithoutfear.png?size=50" />  <a href="https://github.com/engineerwithoutfear" >Cassandra Newcomer</a>
+  <li> <img width="50" src="https://github.com/engineerwithoutfear.png?size=50" />  <a href="http://engineerwithoutfear.github.io/" >Cassandra Newcomer</a>
   </li>
   <li> <img width="50" src="https://github.com/leon0212.png?size=50" />  <a href="https://github.com/leon0212" >Leon Hui</a>
   </li>

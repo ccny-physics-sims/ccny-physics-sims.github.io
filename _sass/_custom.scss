@@ -121,6 +121,16 @@ ul.dev-contribs li {
   list-style-position: outside;
   margin-left: 0px;
 }
+ul.dev-contribs {
+  columns: 2;
+-webkit-columns: 2;
+-moz-columns: 2;
+}
+
+ul.dev-contribs li img {
+  margin-right: 10px;
+  border-radius: 10px;
+}
 
 a.sim-button {
   //width:100px;
