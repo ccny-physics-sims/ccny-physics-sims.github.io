@@ -5,6 +5,7 @@
   <link rel=icon href={{site.baseurl}}/img/hammerDIY-32.png sizes="32x32" type="image/png">
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="keywords" content="{{page.subject}} sim {{page.title}}">
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 
   {% if page.custom-css %}

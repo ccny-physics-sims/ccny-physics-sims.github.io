@@ -4,6 +4,7 @@ title: Learning
 permalink: /learning/
 navigation_weight: 1
 order: 4
+excerpt: learn to build a physics sim
 ---
 
 ## Some quick tips:
@@ -15,7 +16,7 @@ order: 4
 ## Longer Tutorials:
 
 {% for tutorial in site.tutorials %}
-  - [{{tutorial.title}}]({{site.baseurl}}{{tutorial.url}}): 
+  - [{{tutorial.title}}]({{site.baseurl}}{{tutorial.url}}):
 {{tutorial.summary}}
 
 {% endfor %}

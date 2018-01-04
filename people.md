@@ -4,6 +4,7 @@ title: People
 permalink: /people/
 navigation_weight: 1
 order: 5
+excerpt: contributors to science sims
 ---
 
 Our team is pretty awesome. We have a wide range of coders contribute to the project:

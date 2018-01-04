@@ -4,9 +4,10 @@ title: About
 permalink: /about/
 navigation_weight: 1
 order: 6
+excerpt: About the Physics Sims
 ---
 
-Welcome to the Science Sims at CCNY. We build modern simulations to illustrate scientific principles.
+Welcome to the Science Sims at CCNY. We build modern simulations to illustrate scientific principles. Most of the sims available are physics related. However, we are currently working on expanding the offerings to other disciplines.
 
 The goal of this project is twofold:
 
