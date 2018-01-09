@@ -11,5 +11,7 @@ subject: math
 topics: functions
 contributors:
 - engineerwithoutfear
+tags:
+  - sin and cosine fundamentals
 updated: 2016-09-18
 ---

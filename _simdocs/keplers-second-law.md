@@ -9,5 +9,9 @@ width: 600
 height: 600
 subject: astronomy
 topics: orbits
+tags:
+  - Kepler second law simulation
+  - equal areas in equal times
 contributors: hedbergj
+updated: 2018-1-1
 ---

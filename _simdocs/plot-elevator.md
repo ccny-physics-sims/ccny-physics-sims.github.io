@@ -10,5 +10,9 @@ height: 1000
 subject: physics
 topics: kinematics
 contributors: hedbergj
+tags:
+- elevator kinematics plot
+- acceleration plot
+- velocity plot
 updated: 2016-10-21
 ---

@@ -10,5 +10,8 @@ height: 800
 subject: astronomy
 topics: cosmology
 contributors: hedbergj
+tags:
+  - Expanding Universe Simulation
+  - Overhead transparency demo
 updated: 2018-1-4
 ---

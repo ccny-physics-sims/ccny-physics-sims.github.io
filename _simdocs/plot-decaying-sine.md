@@ -10,5 +10,8 @@ height: 500
 subject: math
 topics: functions
 contributors: hedbergj
+tags:
+- decaying sin function
+- time constant
 updated: 2018-1-4
 ---

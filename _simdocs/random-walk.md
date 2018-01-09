@@ -9,5 +9,9 @@ width: 800
 height: 600
 subject: math
 topics: vectors
+tags:
+- random walk
+- vectors
 contributors: hedbergj
+updated: 2016-1-1
 ---

@@ -10,5 +10,8 @@ height: 400
 subject: physics
 topics: kinematics
 contributors: hedbergj
+tags:
+  - kinematic cart simulation
+  - linear motion
 updated: 2017-11-4
 ---

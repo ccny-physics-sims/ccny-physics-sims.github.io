@@ -5,9 +5,13 @@ layout: default
 
 <article class="sim">
 <h2>{{page.title}}</h2>
-<h3>{{page.subject}} sim</h3>
+<h3>{{page.subject}} simulation</h3>
 <iframe src="{{ page.location }}" width =" {{ page.width }}" height=" {{ page.height }}" name="hi"></iframe>
 </article>
+
+<section class="tags">
+  <h3>Tags: {{page.tags | array_to_sentence_string }}</h3>
+</section>
 
 <section class="sim-instructions">
 <b>Instructions:</b>
@@ -18,6 +22,8 @@ layout: default
 <b>Explanation: </b>
 {{page.explanation}}
 </section>
+
+
 
 <section class="sim-isolated">
   <p>
@@ -34,6 +40,8 @@ layout: default
 <textarea class="iframe-link">
 &lt;iframe src="{{ page.location }}" width ="{{ page.width }}" height="{{ page.height }}" ></iframe &gt;</textarea>
 </section>
+
+
 
 <section class="code-links">
   <p>

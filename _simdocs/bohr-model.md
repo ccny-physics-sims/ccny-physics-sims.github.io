@@ -9,6 +9,10 @@ width: 650
 height: 650
 subject: physics
 topics: modern
+tags:
+  - bohr model
+  - foundations of quantum mechanics
+  - bohr model simulation
 contributors: hedbergj
 updated: 2017-11-19
 ---

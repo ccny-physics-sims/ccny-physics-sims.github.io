@@ -11,5 +11,8 @@ subject: physics
 topics: optics
 contributors:
 - brayvid
+tags:
+- ray diagram simulation
+- interactive ray diagram
 updated: 2016-10-21
 ---

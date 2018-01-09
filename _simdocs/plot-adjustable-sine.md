@@ -10,5 +10,7 @@ height: 500
 subject: math
 topics: functions
 contributors: hedbergj
+tags:
+- adjustable sin function plot
 updated: 2017-11-17
 ---

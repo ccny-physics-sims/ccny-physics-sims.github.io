@@ -12,5 +12,8 @@ topics: oscillations
 contributors:
 - amurphy623
 - hedbergj
+tags:
+- pendulum simulation
+- pendulum motion plots
 updated: 2016-07-14
 ---

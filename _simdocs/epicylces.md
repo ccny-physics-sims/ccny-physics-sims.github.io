@@ -10,5 +10,9 @@ height: 800
 subject: astronomy
 topics: historical
 contributors: hedbergj
+tags:
+  - Ptolemaic Epicycles Simualator
+  - Epicycles Sim
+  - Retrograde motion
 updated: 2017-11-4
 ---

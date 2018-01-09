@@ -11,5 +11,8 @@ subject: physics
 topics: forces
 contributors:
 - engineerwithoutfear
+tags:
+- friction simulation
+- friction block on a ramp
 updated: 2017-04-03
 ---
