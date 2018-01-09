@@ -10,5 +10,8 @@ height: 400
 subject: physics
 topics: sound
 contributors: hedbergj
+tags:
+- standing wave tube simulation
+- soundwaves closed-open tube
 updated: 2018-1-04
 ---

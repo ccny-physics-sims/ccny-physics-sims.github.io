@@ -9,7 +9,8 @@ topics: circular-motion
 subject: physics
 location: https://ccny-physics-sims.github.io/sims/simple-solar-system/
 contributors: hedbergj
+tags:
+- simple solar system
+- orbit simulation
+updated: 2017-1-1
 ---
-
-
-An orbiter

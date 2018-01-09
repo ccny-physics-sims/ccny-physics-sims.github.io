@@ -10,4 +10,9 @@ height: 350
 subject: physics
 topics: oscillations
 contributors: thegreatelectron
+tags:
+- spring simulation
+- Hookes Law
+- spring parameters interactive
+updated: 2017-1-1
 ---

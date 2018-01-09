@@ -10,4 +10,8 @@ height: 600
 subject: astronomy
 topics: basics
 contributors: hedbergj
+tags:
+- sidereal day simulation
+- solar vs sidereal days
+update: 2017-1-1
 ---

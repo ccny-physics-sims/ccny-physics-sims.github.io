@@ -10,5 +10,8 @@ height: 600
 subject: physics
 topics: rotation
 contributors: hedbergj
+tags:
+- rotational motion simulation
+- wheel 
 updated: 2017-11-19
 ---

@@ -10,4 +10,8 @@ height: 300
 subject: physics
 topics: sound
 contributors: hedbergj
+tags:
+- soundwave simulator
+- longitudinal wave simulation
+updated: 2018-1-4
 ---
