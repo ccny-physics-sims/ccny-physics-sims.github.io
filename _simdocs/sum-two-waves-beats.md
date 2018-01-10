@@ -9,5 +9,8 @@ width: 710
 height: 450
 subject: math
 topics: functions
+tags:
+- beating frequency visualization
+- beats simulations
 contributors: hedbergj
 ---

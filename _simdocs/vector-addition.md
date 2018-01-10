@@ -12,4 +12,6 @@ topics: vectors
 contributors:
 - hedbergj
 - aareman
+tags:
+- vector addition interactive
 ---

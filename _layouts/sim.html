@@ -10,7 +10,12 @@ layout: default
 </article>
 
 <section class="tags">
-  <h3>Tags: {{page.tags | array_to_sentence_string }}</h3>
+  <h3 style="display: inline;">Tags:</h3>
+  {% for contributor in page.tags %}
+  <h5 style="display: inline; margin:1em; padding: .5em; background: #d1d1d1; border-radius:.3em;">{{contributor}}</span>
+  {% endfor %}
+
+  <!-- <h3>Tags: {{page.tags | array_to_sentence_string }}</h3> -->
 </section>
 
 <section class="sim-instructions">

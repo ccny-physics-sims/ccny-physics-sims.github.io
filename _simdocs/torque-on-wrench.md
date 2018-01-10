@@ -9,6 +9,8 @@ width: 700
 height: 500
 subject: physics
 topics: Rotations and Torque
+tags:
+- torque simulation 
 contributors:
 - ryancan
 updated: 2016-10-21

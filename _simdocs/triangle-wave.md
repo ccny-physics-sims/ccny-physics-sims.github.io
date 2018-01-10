@@ -10,5 +10,7 @@ height: 400
 subject: math
 topics: functions
 contributors: hedbergj
+tags:
+- triangle wave visualization
 updated: 2016-08-10
 ---

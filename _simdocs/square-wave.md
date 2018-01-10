@@ -10,5 +10,8 @@ height: 400
 subject: math
 topics: functions
 contributors: hedbergj
+tags:
+- square wave function
+- square wave simulation
 updated: 2016-08-10
 ---

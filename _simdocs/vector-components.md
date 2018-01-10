@@ -12,4 +12,6 @@ topics: vectors
 contributors:
 - hedbergj
 updated: 2016-08-28
+tags:
+- vector components
 ---

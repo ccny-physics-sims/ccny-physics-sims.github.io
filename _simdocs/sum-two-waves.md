@@ -9,5 +9,8 @@ width: 710
 height: 400
 subject: math
 topics: functions
+tags:
+- sum of two waves visualization
+- superposition simulation
 contributors: hedbergj
 ---

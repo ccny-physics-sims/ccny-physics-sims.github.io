@@ -10,5 +10,9 @@ height: 600
 subject: astronomy
 topics: orbits
 contributors: hedbergj
+tags:
+- two body orbit simulation
+- gravitational nbody simulation
 updated: 2017-11-4
+
 ---

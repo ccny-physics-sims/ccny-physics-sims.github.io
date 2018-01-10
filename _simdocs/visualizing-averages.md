@@ -11,4 +11,7 @@ subject: math
 topics: algebra
 contributors:
 - engineerwithoutfear
+tags:
+- averages
+updated: 2016-7-4
 ---

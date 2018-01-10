@@ -10,5 +10,9 @@ height: 400
 subject: physics
 topics: waves
 contributors: hedbergj
+tags:
+- traveling wave vector simulation
+- vectors
+- transverse wave simulation
 updated: 2018-1-4
 ---

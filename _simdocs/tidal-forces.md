@@ -10,5 +10,8 @@ height: 500
 subject: astronomy
 topics: orbits
 contributors: hedbergj
+tags:
+- tidal force visualization
+- tides gravity simulation
 updated: 2017-11-4
 ---

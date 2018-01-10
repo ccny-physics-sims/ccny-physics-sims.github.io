@@ -10,4 +10,7 @@ height: 400
 subject: physics
 topics: waves
 contributors: hedbergj
+tags:
+- wave in medium
+- wavelength change with medium
 ---
