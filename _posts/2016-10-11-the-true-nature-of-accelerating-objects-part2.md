@@ -102,3 +102,17 @@ As a final check, let's see how the motion compares to a parabola. That's really
 {% include code-sketch-view.html whichSketch="eq-of-motion.10" %}
 
 This time, we've put the acceleration direction in the vertical, and given the object a steady horizontal speed that doesn't change. This allows us to see it overlain with a standard parabola. The points line up as they should. All is good in the coding universe. We know have an object that moves in one direction according to the basic laws of kinematics. This of course is just the beginning. Once we have these details ironed out, then we can extend this work to deal with more complicated motions, i.e. in multiple directions, or with forces at play. ('member the second law: $F = ma$: forces cause acceleration) But, for now we should be happy that we have a legal accelerating object! No laws of physics are broken!
+
+### Postscript
+
+This of course has all been figured out long ago in various contexts. The problem is how to integrate if you can't actually go to the infinitesimally small limits required by calculus. 
+
+The basics are here:
+
+[Euler Method from Wikipedia](https://en.wikipedia.org/wiki/Euler_method)
+
+[A more casual explanation here](http://lolengine.net/blog/2011/12/14/understanding-motion-in-games)
+
+and
+
+[Another one](http://kahrstrom.com/gamephysics/2011/08/03/euler-vs-verlet/)
