@@ -9,20 +9,17 @@ tags:
  - sims
  - p5
  - intro
-summary: Make your first sketch by following these instructions. 
+summary: Make your first sketch by following these instructions.
 ---
 
 {{site.p5scripts | where: "refno", "1.1"}}
 
-The quickest way to get started building a sim will be to download the p5 editor app. This app lets you build quick sims and see them in action without having to set up much.
+The quickest way to get started building a sim will be to use the web editor. That can be found here:
 
-Download it [here](https://p5js.org/download/#editor).
+<a href="https://alpha.editor.p5js.org/" target="_blank">https://alpha.editor.p5js.org/</a>
 
-Upon opening the app, you will see a window like this:
 
-![p5 editor window]({{site.baseurl}}/post-imgs/p5-window.jpg)
-
-Press the play button and a small window will pop up that is all white. This is your canvas being drawn. It's not very interesting because there is nothing to be drawn.
+Press the play button and a small window will pop up that is all gray. This is your canvas being drawn with a gray background. It's not very interesting because there is nothing to be drawn.
 
 In the coding window, you will see two functions: `setup()` and  `draw()`. These functions are the most basic elements of a p5 sketch.
 

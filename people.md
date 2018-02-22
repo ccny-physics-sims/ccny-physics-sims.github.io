@@ -27,7 +27,8 @@ Our team is pretty awesome. We have a wide range of coders contribute to the pro
 #### Past Developers and Contributors
 
 <ul class="dev-contribs">
-
+<li> <img style="border-radius: 10px;" width="50" src="https://github.com/myoussef660.png?size=50" />  <a href="https://github.com/myoussef" >Myrna Youssef</a>
+</li>
   <li> <img style="border-radius: 10px;" width="50" src="https://github.com/aareman.png?size=50" />  <a href="https://github.com/aareman" >Avraham Areman</a>
   </li>
   <li> <img width="50" src="https://github.com/brayvid.png?size=50" />  <a href="https://github.com/brayvid" >Blake Rayvid</a>
