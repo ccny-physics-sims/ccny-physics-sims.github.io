@@ -13,7 +13,6 @@ tags:
 - electric dipole
 - torque
 - electric fields
-contributors:
-- hedbergj
+contributors: hedbergj
 updated: 2018-03-13
 ---
