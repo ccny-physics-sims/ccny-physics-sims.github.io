@@ -6,11 +6,11 @@ layout: default
 <article class="sim">
 <h2>{{page.title}}</h2>
 <h3>{{page.subject}} simulation</h3>
-<p>
+<!-- <p>
   **Sims page under maintenance at the moment - please use the button below to access the sim**
-</p>
- <iframe id="{{page.nice-name}}" src="https://ccny-physics-sims.github.io/sims/{{ page.nice-name }}" width =" {{page.width}}" height="{{ page.height}}"></iframe>
-<!-- <img src="../sim-imgs/{{page.nice-name}}-200.jpg" alt="" style="width: 200px; height: 200px; border: thin solid black;"> -->
+</p> -->
+ <!-- <iframe id="{{page.nice-name}}" src="https://ccny-physics-sims.github.io/sims/{{ page.nice-name }}" width =" {{page.width}}" height="{{ page.height}}"></iframe> -->
+
 </article>
 
 <section class="tags">
@@ -21,7 +21,9 @@ layout: default
 
   <!-- <h3>Tags: {{page.tags | array_to_sentence_string }}</h3> -->
 </section>
-
+<div class="vignette sim-thumb">
+<img src="../sim-imgs/{{page.nice-name}}-200.jpg" alt="" style="width: 200px; height: 200px;">
+</div>
 <section class="sim-instructions">
 <b>Instructions:</b>
 {{page.instructions}}

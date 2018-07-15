@@ -35,14 +35,15 @@ excerpt: Catalog of Math and Physics Sims
 
           <div class="a-sim">
               <div class="vignette sim-thumb">
-              <a href="{{sim.url | prepend: site.baseurl}}">
+              <a href="https://ccny-physics-sims.github.io/sims/{{sim.nice-name}}">
               <img  src="{{site.baseurl}}/sim-imgs/{{sim.nice-name}}-200.jpg" />
               </a>
               </div>
-              <a href="{{ sim.url | prepend: site.baseurl }}">{{sim.title}}</a>
+              <a href="https://ccny-physics-sims.github.io/sims/{{sim.nice-name}}">{{sim.title}}</a>
               <p>
                 {{sim.summary}}
               </p>
+              <p>Instructions and more information: <a href="../simdocs/{{sim.nice-name}}">here.</a> </p>
           </div>
 
 
