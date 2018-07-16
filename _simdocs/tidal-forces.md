@@ -8,7 +8,7 @@ location: https://ccny-physics-sims.github.io/sims/tidal-forces/
 width: 800
 height: 500
 subject: astronomy
-topics: orbits
+topics: gravitation
 contributors: hedbergj
 tags:
 - tidal force visualization

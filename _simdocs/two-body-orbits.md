@@ -8,7 +8,7 @@ location: https://ccny-physics-sims.github.io/sims/two-body-orbits/
 width: 600
 height: 600
 subject: astronomy
-topics: orbits
+topics: gravitation
 contributors: hedbergj
 tags:
 - two body orbit simulation
