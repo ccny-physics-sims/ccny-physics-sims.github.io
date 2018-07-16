@@ -1,6 +1,6 @@
 ---
 title: Traveling Wave
-summary: A simple traveling wave
+summary: A simple traveling wave showing the motion of the medium.
 nice-name: traveling-wave
 instructions: Observe the wave and note the motion of the medium.
 explanation: This is a transverse traveling wave

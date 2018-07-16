@@ -24,31 +24,43 @@ excerpt: Catalog of Math and Physics Sims
 <h2 id="{{item.name}}" class="subject">{{ item.name }} Simulations</h2>
 
 
+
+
     {% assign topicgroups = item.items | group_by: "topics" %}
 
     {% for item in topicgroups %}
 
     <h3 class="topic">{{item.name}}</h3>
+<div class="row">
+
 
 
       {% for sim in item.items %}
 
-          <div class="a-sim">
-              <div class="vignette sim-thumb">
+          <div class="col-6 a-sim">
               <a href="https://ccny-physics-sims.github.io/sims/{{sim.nice-name}}">
-              <img  src="{{site.baseurl}}/sim-imgs/{{sim.nice-name}}-200.jpg" />
-              </a>
-              </div>
-              <a href="https://ccny-physics-sims.github.io/sims/{{sim.nice-name}}">{{sim.title}}</a>
+            <img  src="{{site.baseurl}}/sim-imgs/{{sim.nice-name}}-200.jpg" class="col-3 col-6-sm  simthumb "/>
+            </a>
+              <!-- <div class="vignette sim-thumb">
+
+
+
+              </div> -->
+              <div style="overflow:hidden;">
+
+
+              <h4> <a href="https://ccny-physics-sims.github.io/sims/{{sim.nice-name}}">{{sim.title}}</a></h4>
               <p>
                 {{sim.summary}}
               </p>
-              <p>Instructions and more information: <a href="../simdocs/{{sim.nice-name}}">here.</a> </p>
+              <a class="button normal" href="../simdocs/{{sim.nice-name}}">About/Instructions</a><a class="button normal" href="https://ccny-physics-sims.github.io/sims/{{sim.nice-name}}">View The Sim!</a>
+              <!-- <p>Instructions and more information: <a href="../simdocs/{{sim.nice-name}}">here.</a> </p> -->
+              </div>
           </div>
 
 
       {%endfor%}
-
+</div>
     {%endfor%}
 
 {%endfor%}

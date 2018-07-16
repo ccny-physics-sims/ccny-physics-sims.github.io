@@ -1,6 +1,6 @@
 ---
 title: A Standing Wave
-summary: standing wave formed by two traveling waves
+summary: A standing wave formed by two traveling waves and adjustable angular frequency.
 nice-name: standing-wave
 instructions: Adjust the slider to speed of the traveling waves (red and blue) and note how the standing wave (black) responds.
 explanation: A standing wave is formed by the superposition of two traveling waves with opposite directions of motion.

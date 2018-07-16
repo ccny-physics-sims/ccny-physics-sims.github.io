@@ -64,19 +64,55 @@ section {
   margin: 2% 2% 2% 0;
 }
 
+
+/* ------- CATALOG OF SIMS ------------- */
+
 .a-sim {
 
-  float: left;
-  width: 50%;
-  margin: 0 0 2% 0;
-  overflow:hidden
+  // float: left;
+  // width: 50%;
+  // margin: 0 0 2% 0;
+  // overflow:hidden
+  margin-bottom: 1em !important;
+  
+  margin-left: 0 !important;
 }
 
-.sim-thumb {
-  width: 20%;
-  float: left;
-  margin: 0 2em 2em 0;
+.simthumb {
+  border-radius: 10%;
+  border: 2px solid #aaa;
+  margin-right: 1em !important;
+
+  // width: 20%;
+  // float: left;
+  // margin: 0 2em 2em 0;
 }
+
+a.button {
+  padding: .3em;
+  border-radius: 3px;
+  margin: 0 1em 1em 0;
+  line-height: 2em;
+  white-space:nowrap;
+  float:left;
+}
+a.button.normal {
+  background: #dae2ec;
+  font-style: italic;
+}
+
+a.button.normal:hover {
+  background: #6faffa;
+}
+
+a.button.normal {
+  color: #000;
+}
+a.button.normal:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
 
 .vignette {
 	-webkit-box-shadow: inset 0px 0px 25px rgba(0,0,0,0.3);

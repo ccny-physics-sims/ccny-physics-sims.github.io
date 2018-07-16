@@ -1,6 +1,6 @@
 ---
 title: A Standing Wave with Labels
-summary: standing wave labeled with node and antinode
+summary: A standing wave labeled with node and antinode and adjustable wavelength.
 nice-name: standing-wave-labels
 instructions: Adjust the slider to change the wavelength and note the nodes and antinodes
 explanation: A standing wave has nodes and antinodes
