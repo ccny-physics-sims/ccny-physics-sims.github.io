@@ -1,4 +1,3 @@
 # ccny-physics-sims.github.io
-website files
 
-Just another website.
+The contents of the sciencesims.com website. Built with Jekyll.
