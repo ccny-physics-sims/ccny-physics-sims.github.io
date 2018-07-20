@@ -13,6 +13,9 @@ tags:
   - mercury orbit
   - a day on mercury
   - orbital simulation
+references:
+  - Kepler's equation solver (<a href="http://www.jgiesen.de/kepler/kepler.html">http://www.jgiesen.de/kepler/kepler.html</a>)
+  - Mercury Orbital Parameters (<a href="https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html">https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html</a>)
 contributors: hedbergj
 updated: 2018-07-20
 ---
