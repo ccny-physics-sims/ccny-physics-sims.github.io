@@ -9,12 +9,12 @@ excerpt: Catalog of Math and Physics Sims
 
 
 
-{% assign subjectgroups = site.simdocs | group_by: "subject" %}
+{% assign subjectgroups = site.simdocs | group_by: "subject" | sort: "name" %}
 
 <ul class="subject-list">
 {% for item in subjectgroups %}
 <li class="{{item.name}}"><h3>  <a href="#{{item.name}}">{{item.name}}</a></h3></li>
-{% assign topicgroups = item.items | group_by: "topics" %}
+{% assign topicgroups = item.items | group_by: "topics" | sort: "name" %}
 <ul class="topic-list {{item.name}}topics">
   {% for item in topicgroups %}
   <li><a href="#{{item.name}}">{{item.name}}</a></li>
