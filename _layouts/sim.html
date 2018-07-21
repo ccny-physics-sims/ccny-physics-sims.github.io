@@ -54,18 +54,20 @@ layout: default
 &lt;iframe src="{{ page.location }}" width ="{{ page.width }}" height="{{ page.height }}" ></iframe &gt;</textarea>
 </section>
 
+{% if page.references %}
 <section class="sim-references">
   <h4>References:</h4>
   <ol>
-    {% if page.references %}
+
     {% for areference in page.references %}
     <li>
       {{areference}}
     </li>
     {% endfor %}
-    {% endif %}
+
   </ol>
 </section>
+{% endif %}
 
 
 <section class="code-links">

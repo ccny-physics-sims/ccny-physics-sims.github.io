@@ -11,12 +11,18 @@ excerpt: Catalog of Math and Physics Sims
 
 {% assign subjectgroups = site.simdocs | group_by: "subject" %}
 
-<ol id="subject-list">
+<ul class="subject-list">
 {% for item in subjectgroups %}
-<li><a href="#{{item.name}}">{{item.name}}</a></li>
+<li class="{{item.name}}"><h3>  <a href="#{{item.name}}">{{item.name}}</a></h3></li>
+{% assign topicgroups = item.items | group_by: "topics" %}
+<ul class="topic-list {{item.name}}topics">
+  {% for item in topicgroups %}
+  <li><a href="#{{item.name}}">{{item.name}}</a></li>
+  {%endfor%}
+</ul>
 
 {%endfor%}
-</ol>
+</ul>
 
 {% for item in subjectgroups %}
 
@@ -30,7 +36,7 @@ excerpt: Catalog of Math and Physics Sims
 
     {% for item in topicgroups %}
 
-    <h3 class="topic">{{item.name}}</h3>
+    <h3 id="{{item.name}}" class="topic">{{item.name}}</h3>
 <div class="row">
 
 
@@ -53,7 +59,8 @@ excerpt: Catalog of Math and Physics Sims
               <p>
                 {{sim.summary}}
               </p>
-              <a class="button normal" href="../simdocs/{{sim.nice-name}}">About/Instructions</a><a class="button normal" href="https://ccny-physics-sims.github.io/sims/{{sim.nice-name}}">View The Sim!</a>
+              <a class="button normal" href="https://ccny-physics-sims.github.io/sims/{{sim.nice-name}}">View The Sim!</a>
+              <a class="button normal" href="../simdocs/{{sim.nice-name}}">About/Instructions</a>
               <!-- <p>Instructions and more information: <a href="../simdocs/{{sim.nice-name}}">here.</a> </p> -->
               </div>
           </div>
