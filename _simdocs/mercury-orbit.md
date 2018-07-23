@@ -16,6 +16,7 @@ tags:
 references:
   - Kepler's equation solver (<a href="http://www.jgiesen.de/kepler/kepler.html">http://www.jgiesen.de/kepler/kepler.html</a>)
   - Mercury Orbital Parameters (<a href="https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html">https://nssdc.gsfc.nasa.gov/planetary/factsheet/mercuryfact.html</a>)
+  - Inspired by <a href="http://www.messenger-education.org/Interactives/ANIMATIONS/Day_On_Mercury/day_on_mercury_full.htm">http://www.messenger-education.org/Interactives/ANIMATIONS/Day_On_Mercury/day_on_mercury_full.htm</a>
 contributors: hedbergj
 updated: 2018-07-20
 ---
