@@ -276,14 +276,14 @@ a.sim-button {
   text-align: center;
   outline: none;
   color: #fff;
-  background-color: #5c98de;
+  background-color: hsl(210, 65%, 59%);
   border: none;
   border-radius: 10px;
-  box-shadow: 0 6px #4b79ad;
+  // box-shadow: 0 6px #4b79ad;
 }
 
 a.sim-button:hover {
-	background-color: #58585a
+	background-color: hsl(210, 70%, 51%)
 }
 
 p.callout {
@@ -398,7 +398,7 @@ striping:
   background-color: #94c6d8;
   border: none;
   border-radius: 15px;
-  box-shadow: 0 9px #999;
+  // box-shadow: 0 9px #999;
 }
 
 .sim-button:hover {
@@ -408,7 +408,7 @@ striping:
 .sim-button:active {
   background-color: #80a7b5;
   box-shadow: 0 5px #666;
-  transform: translateY(4px);
+  // transform: translateY(4px);
 }
 
 .sim-button.red {
@@ -465,7 +465,7 @@ h2.subject {
   background-color: #94c6d8;
   border: none;
   border-radius: 15px;
-  box-shadow: 0 9px #999;
+  // box-shadow: 0 9px #999;
 	letter-spacing: 1px;
 }
 
@@ -474,7 +474,7 @@ h2.subject {
 .sim-button:active {
   background-color: #80a7b5;
   box-shadow: 0 5px #666;
-  transform: translateY(4px);
+  // transform: translateY(4px);
 }
 
 .sim-button.slim {

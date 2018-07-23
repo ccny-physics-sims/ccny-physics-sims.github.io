@@ -9,7 +9,7 @@ layout: default
 <div class="row">
   <h2>Simulating Nature</h2>
   <p class="col-10 col-9-sm">
-Simulations for science education have been around for decades. Traditionally, the coding skills required were just out of reach for beginning students. Not so anymore. Using elementary javascript, we can code basic to advanced sims that show interesting science without having to spend years learning software development.
+Simulations for science education have been around for decades. Traditionally, the coding skills required were just out of reach for beginning students. Not so anymore. Using elementary javascript, we can code basic to advanced sims that show interesting science without having to spend years learning software development. The skills learned are applicable to both physics and other coding rich fields.
 <br>
   </p>
 <img class=" col-2 col-3-sm img-circle" src="img/code-snippit.jpg" />
@@ -25,21 +25,25 @@ Your browser does not support the video tag.
 
 <p class="col-10 col-9-sm">
 Books are great. There's no denying that. However, so are motion graphics! We can make abstract science concepts visual by coding up simple simulations. Our forthcoming <code>science.js</code> library will make it easy for students and coders everywhere to build their own sims. </p>
+<h3>View the Sims Catalog!</h3>
+<a href="/sims-catalog/" class="sim-button">Sims Catalog</a>
+
 </div>
+
 
 <!-- <div class="example">
   <iframe src="https://ccny-physics-sims.github.io/sims/sum-two-waves/" width=710px height=400px frameborder="0"></iframe>
 </div> -->
 
 <div class="row">
-
+<hr>
 
 <div class="col-6 recent-posts">
 
   <h1>Recent Posts</h2>
 
   <ul class="post-list">
-    {% for post in site.posts limit:4 %}
+    {% for post in site.posts limit:3 %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
@@ -59,9 +63,7 @@ Books are great. There's no denying that. However, so are motion graphics! We ca
 </div>
 
 <div class="col-5">
-  <p>
-    Many existing simulation collections suffer from the common blight of stagnation. They are built with old technology (flash or java applets) by old people (no offense intended, but programming is a young person's game!). The often look dated (like 90's video games), don't work on modern devices, and fail to communicate the fundamentals of the science to the students using them. These sims are <i>fresh</i> - built by students using modern javascript libraries. Sure, one day, they too will be old - but that day is not today!
-  </p>
+
   <div>
   <a class="twitter-timeline"  data-height="500"
   href="https://twitter.com/diysciencesims">Tweets by diy science sims</a> <script async

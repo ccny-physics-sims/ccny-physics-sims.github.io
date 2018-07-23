@@ -24,6 +24,7 @@ $breakpoint-large: 60em; // 960px
 .row {
   position: relative;
   width: 100%;
+  margin-bottom: 1em;
 }
 
 .row [class^="col"] {
