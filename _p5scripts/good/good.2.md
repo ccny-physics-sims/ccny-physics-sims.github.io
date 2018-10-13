@@ -1,5 +1,5 @@
 ---
-title: A slider and a circle
+title: A lot of circles
 refno: good.2
 width: 300
 height: 200
@@ -8,13 +8,11 @@ height: 200
 <script>
 function setup() {
   canvas = createCanvas(300, 200);
-  aSlider = createSlider(0,100,50,1)
-  aSlider.position(10,10)
+  background('blue');
+
 }
 
 function draw() {
-  background(200);
-  radius = aSlider.value()
-  ellipse(width/2,height/2,radius)
-}
-</script>
+  fill('orange');
+  ellipse(random(width),random(height),30);
+}</script>

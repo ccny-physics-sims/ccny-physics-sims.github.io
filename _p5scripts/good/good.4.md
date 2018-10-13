@@ -1,5 +1,5 @@
 ---
-title: A slider moves circle
+title: Mathy
 refno: good.4
 width: 300
 height: 200
@@ -8,13 +8,8 @@ height: 200
 <script>
 function setup() {
   canvas = createCanvas(300, 200);
-  aSlider = createSlider(-100,100,0,1)
-  aSlider.position(10,10)
+  text(sqrt(2),150,100)
 }
 
 function draw() {
-  background(200);
-  yOffset = aSlider.value()
-  ellipse(width/2,height/2-yOffset,20)
-}
-</script>
+}</script>

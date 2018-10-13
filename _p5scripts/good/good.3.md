@@ -1,20 +1,17 @@
 ---
-title: A slider and a circle
+title: One circle, all over the place.
 refno: good.3
 width: 300
 height: 200
 ---
 
 <script>
-var theta = 0;
 function setup() {
-  canvas = createCanvas(300, 200);  
+  canvas = createCanvas(300, 200);
 }
 
 function draw() {
-  background(200);
-  radius = 20
-  ellipse(width/2,height/2+30*sin(theta),radius)
-  theta+=.1;
-}
-</script>
+  background('blue');
+  fill('orange');
+  ellipse(random(width),random(height),30);
+}</script>

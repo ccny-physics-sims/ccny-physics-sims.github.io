@@ -1,6 +1,6 @@
 ---
 title: Let's use translate and rotate, again
-refno: good.8
+refno: good2.8
 width: 300
 height: 200
 ---
