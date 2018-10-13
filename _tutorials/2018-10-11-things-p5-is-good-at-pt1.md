@@ -24,6 +24,10 @@ Here is a very simple one that makes a blue canvas and draws a circle on it. (Pr
 
 {% include code-sketch-view.html whichSketch="good.1" %}
 
+Here is a link to the same sketch in the online editor:
+
+[Orange Circle on a Blue Background](https://editor.p5js.org/jhedberg/sketches/Skw6ZOyiX)
+
 You can see there are two main sections to the sketch: the `setup` and the `draw`. Things in the setup get done once, at the beginning, and things in the draw part get done over and over, about 30 times a second. Here's an example where we draw circles over and over again at random locations.
 
 `ellipse(random(width),random(height),30)`
