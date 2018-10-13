@@ -16,7 +16,7 @@ summary: Make your first sketch by following these instructions.
 
 The quickest way to get started building a sim will be to use the web editor. That can be found here:
 
-<a href="https://alpha.editor.p5js.org/" target="_blank">https://alpha.editor.p5js.org/</a>
+<a href="https://editor.p5js.org/" target="_blank">https://editor.p5js.org/</a>
 
 
 Press the play button and a small window will pop up that is all gray. This is your canvas being drawn with a gray background. It's not very interesting because there is nothing to be drawn.
