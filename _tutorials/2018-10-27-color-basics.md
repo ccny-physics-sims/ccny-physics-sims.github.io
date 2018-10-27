@@ -20,14 +20,14 @@ There are many ways of telling a computer to draw a particular color. P5.js has 
 
 ## Method 2. It's just gray out today
 
-Before getting into colors, let's just start with shades of gray. P5 can display 255 different grays easily, just pick a number between 0 and 255, and that will give you a corresponding gray. (0 is black, 255 is white) This little sketch continuously sets the background to a different shade of gray by using a sin function. The color of the text is set by the cosine, since we always want the text to be different than the background.
+Before getting into colors, let's just start with shades of gray. P5 can display 255 different grays easily, just pick a number between 0 and 255, and that will give you a corresponding gray. (0 is black, 255 is white) This little sketch continuously sets the background to a different shade of gray by using a sine function. The color of the text is set by the cosine, since we always want the text to be different than the background.
 
 {% include code-sketch-view.html whichSketch="colors.2" %}
 
 
 ## Method 3. Roy G. Biv
 
-If you need finer control of things, and don't want to be limited by the set of colors defined by some folks who don't see the world like you do, then you can define your color using the amount of Red, Green, and Blue that will be displayed. If you were to look at your monitor with a microscope, you'd see a array of little rectangles that are either Red, Green, or Blue. The amount of each one determines what color the screen is showing.
+If you need finer control of things, and don't want to be limited by the set of colors defined by some folks who don't see the world like you do, then you can define your own color by setting the amount of Red, Green, and Blue that will be displayed. If you were to look at your monitor with a microscope (go ahead, do it!), you'd see a array of little rectangles that are either Red, Green, or Blue. The amount of each one determines what color the screen is showing.
 
 
 <figure class="figure col-lg-6 col-sm-12 float-left">
