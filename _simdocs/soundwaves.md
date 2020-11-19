@@ -13,5 +13,5 @@ contributors: hedbergj
 tags:
 - soundwave simulator
 - longitudinal wave simulation
-updated: 2018-1-4
+updated: 2020-11-19
 ---
