@@ -12,5 +12,5 @@ topics: functions
 contributors: hedbergj
 tags:
   - parabola plot simulation
-updated: 2016-07-13
+updated: 2020-11-19
 ---
