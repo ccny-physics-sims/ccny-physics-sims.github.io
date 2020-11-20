@@ -14,5 +14,5 @@ tags:
   - foundations of quantum mechanics
   - bohr model simulation
 contributors: hedbergj
-updated: 2017-11-19
+updated: 2020-11-20
 ---
