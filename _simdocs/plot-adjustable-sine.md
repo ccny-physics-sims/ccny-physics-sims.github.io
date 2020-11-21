@@ -12,5 +12,6 @@ topics: functions
 contributors: hedbergj
 tags:
 - adjustable sin function plot
+added: 2017-11-17
 updated: 2020-11-19
 ---

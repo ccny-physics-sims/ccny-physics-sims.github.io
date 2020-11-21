@@ -13,5 +13,6 @@ contributors: hedbergj
 tags:
 - decaying sin function
 - time constant
+added: 2018-1-4
 updated: 2020-11-19
 ---

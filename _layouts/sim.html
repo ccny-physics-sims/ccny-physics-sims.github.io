@@ -84,6 +84,11 @@ layout: default
     </li>
   {% endfor %}
   </ul>
+  {% if page.added %}
+  <p>
+    Sim Added: {{page.added | date: "%B %-d , %Y" }}
+  </p>
+  {% endif %}
   {% if page.updated %}
   <p>
     Updated: {{page.updated | date: "%B %-d , %Y" }}

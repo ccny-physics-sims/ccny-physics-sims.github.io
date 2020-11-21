@@ -13,4 +13,6 @@ tags:
 - sum of two waves visualization
 - superposition simulation
 contributors: hedbergj
+added: 2016-07-19
+updated: 2020-11-21
 ---
