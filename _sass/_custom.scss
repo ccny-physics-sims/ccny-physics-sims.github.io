@@ -74,7 +74,6 @@ section {
   // margin: 0 0 2% 0;
   // overflow:hidden
   margin-bottom: 1em !important;
-
   margin-left: 0 !important;
 }
 
@@ -86,6 +85,38 @@ section {
   // width: 20%;
   // float: left;
   // margin: 0 2em 2em 0;
+}
+.kindersim {
+  //background-color: gray;
+
+}
+.kindersimthumb {
+  border-radius: 50%;
+  //border: 2px solid #aaa;
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  clear: both;
+  overflow: auto;
+  padding:5%;
+}
+
+.kindersim h1 {
+
+}
+
+.kindersim h2 {
+
+}
+
+.kindersim h4 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.kindersimthumb{
+
+
 }
 
 a.button {

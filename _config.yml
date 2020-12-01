@@ -20,6 +20,10 @@ collections:
     output: true
     permalink: simdocs/:title
     layout: sim
+  kindersimsdocs:
+    output: true
+    permalink: kindersimsdocs/:title
+    layout: sim
   tutorials:
     output: true
     permalink: tutorials/:title
@@ -46,6 +50,11 @@ defaults:
   - scope:
       path: ""
       type: simdocs
+    values:
+      layout: sim
+  - scope:
+      path: ""
+      type: kindersimsdocs
     values:
       layout: sim
   - scope:

@@ -1,0 +1,45 @@
+---
+layout: kindersims_general
+title: Kinder Sims
+permalink: /kinder-sims/
+navigation_weight: 1
+order: 1
+excerpt: Sims for tots
+---
+
+
+<div class="row">
+
+{% for kindersim in site.kindersimsdocs %}
+
+
+
+  <h2>{{ kindersim.name }}</h2>
+
+  <div class="col-4 a-sim kindersim">
+    <h4> <a href="https://ccny-physics-sims.github.io/sims/{{kindersim.nice-name}}">{{kindersim.title}}</a></h4>
+      <a href="https://ccny-physics-sims.github.io/sims/{{kindersim.nice-name}}">
+    <img  src="{{site.baseurl}}/kinder-sims/kinder-sims-img/{{kindersim.nice-name}}-img-800.jpg" class="col-10 col-10-sm  kindersimthumb "/>
+    </a>
+      <!-- <div class="vignette sim-thumb">
+
+
+
+      </div> -->
+      <!-- <div style="overflow:hidden;">
+
+
+
+      <p>
+        {{sim.summary}}
+      </p>
+      <a class="button normal" href="https://ccny-physics-sims.github.io/sims/{{kindersim.nice-name}}">View The Sim!</a>
+      <a class="button normal" href="../kindersimsdocs/{{kindersim.nice-name}}">About/Instructions</a> -->
+      <!-- <p>Instructions and more information: <a href="../simdocs/{{sim.nice-name}}">here.</a> </p> -->
+      <!-- </div> -->
+  </div>
+
+
+{% endfor %}
+
+</div>

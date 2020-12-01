@@ -8,7 +8,7 @@ location: https://ccny-physics-sims.github.io/sims/visualizing-averages/
 width: 650
 height: 600
 subject: math
-topics: algebra
+topics: numbers
 contributors:
 - engineerwithoutfear
 tags:
