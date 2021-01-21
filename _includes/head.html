@@ -12,6 +12,25 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="sciencesims.com" />
+<meta name="twitter:creator" content="@scisims" />
+<meta property="og:title" content="{{page.title}}" />
+<meta name="author" content="Science Sims" />
+<meta property="og:locale" content="en_US" />
+{% if page.excerpt %}
+<meta name="description" content="{{page.excerpt}}" />
+<meta property="og:description" content="{{page.excerpt}}" />
+{% endif %}
+<link rel="canonical" href="https://sciencesims.com{{page.url}}" />
+<meta property="og:url" content="http://https://sciencesims.com{{page.url}}" />
+<meta property="og:site_name" content="Science Sims" />
+
+<meta property="og:image" content="https://sciencesims.com/sim-imgs/{{page.nice-name}}-200.jpg" />
+
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="{{page.date}}" />
+
   <link rel=icon href={{site.baseurl}}/img/scisims2020-64.png sizes="64x64" type="image/png">
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">

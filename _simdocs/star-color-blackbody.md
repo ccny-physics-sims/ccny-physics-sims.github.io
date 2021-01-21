@@ -15,7 +15,7 @@ tags:
   - blackbody radiation
   - color and temperature
 references:
-    - Blackbody temperature to RGB adopted from <a href="https://github.com/neilbartlett/color-temperature">https://github.com/neilbartlett/color-temperature</a>
+    - Blackbody temperature to RGB adopted from <a href="https://arxiv.org/abs/2101.06254">Digital color codes of stars JV Harre, R Heller</a>
 contributors: hedbergj
-updated: 2020-11-17
+updated: 2021-01-21
 ---
