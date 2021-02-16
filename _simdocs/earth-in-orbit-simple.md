@@ -8,7 +8,7 @@ location: https://ccny-physics-sims.github.io/sims/earth-in-orbit-simple/
 width: 650
 height: 650
 subject: astronomy
-topics: solar-system
+topics: Solar System
 tags:
   - earth in orbit simulation
 contributors: hedbergj

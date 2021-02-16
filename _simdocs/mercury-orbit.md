@@ -8,7 +8,7 @@ location: https://ccny-physics-sims.github.io/sims/mercury-orbit
 width: 800
 height: 600
 subject: astronomy
-topics: solar-system
+topics: Solar System
 tags:
   - mercury orbit
   - a day on mercury
