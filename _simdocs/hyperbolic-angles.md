@@ -1,10 +1,10 @@
 ---
 title: Hyperbolic Angles
 summary: See the relation between normal angles for a circle and their hyperbolic analogues.
-nice-name: hyperbolic-angles
+nice-name: hyperbolic-angle
 instructions: The slider will change the value of &alpha;.
 explanation: Inspired by the gif here-> en.wikipedia.org/wiki/Hyperbolic_angle
-location: https://ccny-physics-sims.github.io/sims/hyperbolic-angles/
+location: https://ccny-physics-sims.github.io/sims/hyperbolic-angle/
 width: 900
 height: 500
 subject: math
